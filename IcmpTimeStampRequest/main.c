@@ -138,9 +138,10 @@ long recv_icmp_ts_reply(int sockfd, long ts_orig)
 
     struct sockaddr_in from;
     int count;
-    uint fromlen;
+    uint fromlen = sizeof(from);
 
-    for (size_t i = 0; i < 5; ++i) {
+    size_t i = 0;
+    for (; i < 5; ++i) {
         if (select(FD_SETSIZE, &read_fd_set, NULL, NULL, &timeout) == 0) {
             continue;
         }
