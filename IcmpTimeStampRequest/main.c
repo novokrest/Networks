@@ -70,7 +70,7 @@ int main(int argc, char** argv)
     long ts_diff_ms = ts_recv - ts_orig;
 
     if (ts_diff_ms < 0) {
-        printf("Incorrect time difference: %li \n", ts_diff_ms);
+        printf("Incorrect time difference: %li ms \n", ts_diff_ms);
         exit(1);
     }
 
