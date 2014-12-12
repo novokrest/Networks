@@ -1,0 +1,17 @@
+package spbau.novokreshchenov.network.hw1.Tasks;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+
+@XmlRootElement
+public class DeleteTask {
+    public String id;
+
+    public DeleteTask() {
+        this.id = null;
+    }
+
+    public DeleteTask(String taskId) {
+        this.id = taskId;
+    }
+}
