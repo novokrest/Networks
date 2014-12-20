@@ -12,8 +12,10 @@ request::request(int count)
     }
 }
 
-void request::serialize(char *buf)
-{}
+char* request::serialize()
+{
+
+}
 
 request request::deserialize(char *buf)
 {

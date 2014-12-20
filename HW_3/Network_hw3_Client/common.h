@@ -25,6 +25,7 @@ using std::vector;
 using std::string;
 
 typedef std::vector<int> vint;
+typedef std::vector<int32_t> vint32;
 typedef std::vector<char> vchar;
 
 #endif // COMMON_H
