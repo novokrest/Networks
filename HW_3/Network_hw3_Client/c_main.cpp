@@ -1,8 +1,7 @@
+#include "common.h"
 #include "client.h"
 #include "utils.h"
 #include "errors.h"
-#include <iostream>
-#include <cstring>
 
 using std::string;
 using std::cout;

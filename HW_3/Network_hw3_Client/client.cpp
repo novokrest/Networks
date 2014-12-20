@@ -25,6 +25,7 @@ int client::connect_to_server()
         exit(EXIT_FAILURE);
         //return ERROR_CONNECTING;
     }
+    cout << "Succesfully connected" << endl;
 
     return 0;
 }
@@ -36,12 +37,13 @@ int client::send_request()
     request reqst(REQUEST_LENGTH);
     reqst.serialize();
 
-    cout << "Strt sending request with length = " << REQUEST_LENGTH << endl;
+    cout << "Start sending request with length = " << REQUEST_LENGTH << endl;
 //    if (send_all(sock_, (char*)&buf, REQUEST_LENGTH, 0) < 0) {
     if (send_all(sock_, "hello, server!", 14, 0) < 0) {
         perror(strerror(errno));
         exit(EXIT_FAILURE);
     }
+    cout << "Send all data" << endl;
 
     return 0;
 }
