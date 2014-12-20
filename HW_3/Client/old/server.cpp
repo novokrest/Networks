@@ -9,7 +9,10 @@ server::server(unsigned short int portno)
 
     bzero((char*)&addr_, sizeof(struct sockaddr_in));
     addr_.sin_family = AF_INET;
-    addr_.sin_addr.s_addr = htonl(INADDR_ANY);
+
+    struct in_addr a;
+    inet_aton("192.168.1.2", &a);
+    addr_.sin_addr.s_addr = a.s_addr;
     addr_.sin_port = htons(portno);
 }
 
@@ -18,13 +21,16 @@ int server::start()
     return 0;
 }
 
-int server::bind()
-{
-    return ::bind(listener_, (const sockaddr*)&addr_, sizeof(struct sockaddr));
-}
-
 int server::listen()
 {
+    if (bind(listener_, (const sockaddr*)&addr_, sizeof(struct sockaddr)) < 0) {
+        cout << "Couldn't bind socket" << endl;
+        perror(strerror(errno));
+        exit(EXIT_FAILURE);
+    }
+
+    cout << "Listener bind to: " << inet_ntoa(addr_.sin_addr) << " : " << ntohs(addr_.sin_port) << endl;
+
     FD_ZERO(&active_set);
     FD_SET(listener_, &active_set);
 

@@ -17,16 +17,20 @@
 #include <unistd.h>
 
 #include <iostream>
+#include <fstream>
 #include <vector>
+#include <sstream>
 
 using std::cout;
 using std::endl;
 using std::vector;
 using std::string;
+using std::stringstream;
 
 typedef std::vector<int> vint;
 typedef std::vector<int32_t> vint32;
 typedef std::vector<char> vchar;
+typedef std::vector<pid_t> vpid_t;
 
 #endif // COMMON_H
 

@@ -9,13 +9,10 @@ int s_main(int argc, char* argv[])
         exit(EXIT_SUCCESS);
     }
 
+    cout << "Start server" << endl;
     unsigned short int port = atoi(argv[1]);
     server serv(port);
-
-    if (serv.bind() < 0) {
-        perror(strerror(errno));
-        exit(EXIT_FAILURE);
-    }
+    serv.start();
 
     return 0;
 }

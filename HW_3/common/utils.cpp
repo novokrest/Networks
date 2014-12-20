@@ -1,8 +1,7 @@
+#include "common.h"
 #include "utils.h"
 #include "errors.h"
-#include <arpa/inet.h>
-#include <cstring>
-#include <cstdlib>
+
 
 int get_host_addr_by_ip_and_port(const char *host_ip, unsigned short int host_port, sockaddr_in *host_sockaddr_in)
 {
@@ -46,6 +45,7 @@ int send_all(int sock, char* buf, int len, int flags)
 
     while(total < len) {
         int n = send(sock, buf, len, flags);
+        cout << n << " bytes was sent" << endl;
         if (n == -1) {
             return -1;
         }

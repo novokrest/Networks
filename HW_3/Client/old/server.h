@@ -20,7 +20,6 @@ class server
 public:
     server(unsigned short int portno);
 
-    int bind();
     int listen();
     int start();
 
