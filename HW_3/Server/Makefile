@@ -53,13 +53,17 @@ SOURCES       = s_main.cpp \
 		s_simple.cpp \
 		s_test.cpp \
 		../common/request.cpp \
-		../common/utils.cpp 
+		../common/utils.cpp \
+		../common/logger.cpp \
+		../common/response.cpp 
 OBJECTS       = s_main.o \
 		server.o \
 		s_simple.o \
 		s_test.o \
 		request.o \
-		utils.o
+		utils.o \
+		logger.o \
+		response.o
 DIST          = ../../../../Qt/5.4/clang_64/mkspecs/features/spec_pre.prf \
 		../../../../Qt/5.4/clang_64/mkspecs/qdevice.pri \
 		../../../../Qt/5.4/clang_64/mkspecs/features/device_config.prf \
@@ -186,12 +190,16 @@ DIST          = ../../../../Qt/5.4/clang_64/mkspecs/features/spec_pre.prf \
 		../common/common.h \
 		../common/errors.h \
 		../common/request.h \
-		../common/utils.h s_main.cpp \
+		../common/utils.h \
+		../common/logger.h \
+		../common/response.h s_main.cpp \
 		server.cpp \
 		s_simple.cpp \
 		s_test.cpp \
 		../common/request.cpp \
-		../common/utils.cpp
+		../common/utils.cpp \
+		../common/logger.cpp \
+		../common/response.cpp
 QMAKE_TARGET  = Server
 DESTDIR       = #avoid trailing-slash linebreak
 TARGET        = Server
@@ -525,12 +533,16 @@ compiler_clean:
 
 s_main.o: s_main.cpp ../common/common.h \
 		server.h \
-		../common/request.h
+		../common/request.h \
+		../common/response.h \
+		../common/logger.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o s_main.o s_main.cpp
 
 server.o: server.cpp ../common/common.h \
 		server.h \
 		../common/request.h \
+		../common/response.h \
+		../common/logger.h \
 		../common/utils.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o server.o server.cpp
 
@@ -549,6 +561,16 @@ utils.o: ../common/utils.cpp ../common/common.h \
 		../common/utils.h \
 		../common/errors.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o utils.o ../common/utils.cpp
+
+logger.o: ../common/logger.cpp ../common/logger.h \
+		../common/common.h \
+		../common/utils.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o logger.o ../common/logger.cpp
+
+response.o: ../common/response.cpp ../common/response.h \
+		../common/common.h \
+		../common/utils.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o response.o ../common/response.cpp
 
 ####### Install
 

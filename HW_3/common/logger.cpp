@@ -81,6 +81,7 @@ int logger::save()
     string file_name = author_ + ".log";
     while(is_file_exists(file_name)) {
         file_name = author_ + std::to_string(version) + ".log";
+        ++version;
     }
 
     save(file_name);
@@ -96,11 +97,13 @@ int logger::save(const string& file_name)
         return -1;
     }
 
+    cout << "Logger: File \"" << file_name << "\" is open" << endl;
     out_file << "[ " << 0 << " ms ] " << "START" << endl;
     for (size_t i = 0; i < messages_.size(); ++i) {
         out_file << "[ "
                  << std::chrono::duration_cast<milliseconds>(times_[i] - start_tp_).count()
                  << " ms ] "
+                 << author_ << ": "
                  << messages_[i]
                  << endl;
     }

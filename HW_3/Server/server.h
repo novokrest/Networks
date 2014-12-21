@@ -34,6 +34,8 @@ public:
     int process_request(request& client_request, response& out_response_to_client);
     int send_response(response& response_to_client);
     void close_connection(int sock);
+
+    void exit(int flag);
 };
 
 #endif // SERVER

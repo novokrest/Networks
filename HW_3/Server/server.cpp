@@ -23,6 +23,7 @@ server::server(unsigned short int portno)
 
 server::~server()
 {
+    logger_.log("Exit");
     logger_.save();
 }
 
@@ -265,3 +266,8 @@ void server::close_connection(int sock)
     }
 }
 
+void server::exit(int flag)
+{
+    logger_.save();
+    ::exit(flag);
+}

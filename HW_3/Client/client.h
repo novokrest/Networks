@@ -24,6 +24,8 @@ public:
     int send_request();
     int receive_response();
     int close_connection();
+
+    void exit(int flag);
 };
 
 #endif // CLIENT

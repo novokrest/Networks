@@ -142,3 +142,8 @@ int client::start()
     return 0;
 }
 
+void client::exit(int flag)
+{
+    logger_.save();
+    ::exit(flag);
+}

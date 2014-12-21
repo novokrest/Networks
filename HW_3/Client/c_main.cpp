@@ -56,6 +56,7 @@ int c_main(int argc, char* argv[])
     }
 
     client cl(name, server_addr);
+    sleep(1);
     cl.start();
 
     return 0;
