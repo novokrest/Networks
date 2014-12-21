@@ -1,7 +1,6 @@
 #!/bin/bash
 
 clear
-make clean
-qmake
-make
-./Server
+make -f MyMakefile clean
+make -f MyMakefile
+./server

@@ -3,28 +3,37 @@
 
 #include "common.h"
 #include "request.h"
+#include "response.h"
+#include "logger.h"
 
 static const int MAX_BACKLOG = 100;
 
 class server
 {
     int listener_;
+    int clientsock_;
     struct sockaddr_in addr_;
 
-    fd_set active_set;
+    timeval timeout_;
 
     vint clients_;
     vpid_t workers_;
 
+    string name_;
+    logger logger_;
+
 public:
     server(unsigned short int portno);
+    ~server();
 
+    string worker_name();
     int start();
     int create_client_connection();
-
-    void say_about_self(const char* message);
-    int read_request(int client_sock);
-    int process_request(int client_sock, request rst);
+    int process_client();
+    int receive_request(request& out_client_request);
+    int process_request(request& client_request, response& out_response_to_client);
+    int send_response(response& response_to_client);
+    void close_connection(int sock);
 };
 
 #endif // SERVER
