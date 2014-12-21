@@ -29,13 +29,13 @@ struct request
     bool operator==(const request& other);
 
     bool is_valid();
-    const vint16& numbers();
+    vint16& numbers();
 
 //    char* serialize(int* out_size);
 //    int deserialize(char* buf, size_t len);
 
     void serialize_to_string(string& out_string);
-    bool deserialize_from_string(string& in_string);
+    bool deserialize_from_string(const string& in_string);
 
     void print_content();
     string to_string();

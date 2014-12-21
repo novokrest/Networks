@@ -80,7 +80,7 @@ void response::serialize_to_string(string& out_string)
     assert(out_string.length() == offset);
 }
 
-bool response::deserialize_from_string(string& in_string)
+bool response::deserialize_from_string(const string& in_string)
 {
     if (in_string.length() < RESPONSE_MIN_LENGTH) {
         this->is_valid_ = false;

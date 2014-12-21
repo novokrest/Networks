@@ -31,7 +31,7 @@ bool request::is_valid()
     return is_valid_;
 }
 
-const vint16& request::numbers()
+vint16& request::numbers()
 {
     return numbers_;
 }
@@ -101,7 +101,7 @@ void request::serialize_to_string(string& out_string)
     assert(offset == packet_length);
 }
 
-bool request::deserialize_from_string(string& in_string)
+bool request::deserialize_from_string(const string& in_string)
 {
     if (in_string.length() < REQUEST_MIN_LENGTH) {
         this->is_valid_ = false;

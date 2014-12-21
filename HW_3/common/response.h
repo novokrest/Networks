@@ -33,7 +33,7 @@ struct response
     int32_t result();
 
     void serialize_to_string(string& out_string);
-    bool deserialize_from_string(string& in_string);
+    bool deserialize_from_string(const string& in_string);
 
     string to_string();
 

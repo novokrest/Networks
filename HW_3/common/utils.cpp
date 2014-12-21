@@ -45,7 +45,6 @@ int send_all(int sock, char* buf, int len, int flags)
 
     while(total < len) {
         int n = send(sock, buf, len, flags);
-        cout << n << " bytes was sent" << endl;
         if (n == -1) {
             return -1;
         }
@@ -55,5 +54,26 @@ int send_all(int sock, char* buf, int len, int flags)
     return total;
 }
 
+int check_connection(int sock)
+{
+    int error = 0;
+    socklen_t len = sizeof(error);
+    int retval = getsockopt(sock, SOL_SOCKET,SO_ERROR, &error, &len);
+    if (retval < 0) {
+        cout << "bad connection" << endl;
+    }
 
+    return retval;
+}
+
+bool is_file_exists(string& file_name)
+{
+    ifstream file(file_name.c_str());
+    return file.good();
+}
+
+bool comp_elements(int16_t i, int16_t j)
+{
+    return i < j;
+}
 
