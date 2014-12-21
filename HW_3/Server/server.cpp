@@ -128,7 +128,7 @@ int server::create_client_connection()
         return 0;
     }
 
-    name_ = "worker_" + std::to_string(pid);
+    name_ = "worker_" + std::to_string(getpid());
     logger_.clear();
     logger_.set_author(name_);
     logger_.start();
