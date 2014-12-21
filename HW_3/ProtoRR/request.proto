@@ -1,0 +1,12 @@
+package networks;
+
+message Request {
+    required int32 count    = 1;
+    repeated int32 elements = 2;
+}
+
+
+message Response {
+    required int32  result = 1;
+    optional string worker = 2;
+}
