@@ -115,6 +115,7 @@ int client::receive_response()
 
     ss << "Result: " << result;
     logger_.log(ss.str());
+    ss.str("");
     ss.clear();
 
     return 0;
