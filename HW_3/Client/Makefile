@@ -14,7 +14,7 @@ CC            = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefau
 CXX           = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
 DEFINES       = 
 CFLAGS        = -pipe -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wall -W -fPIE $(DEFINES)
-CXXFLAGS      = -pipe -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wall -W -fPIE $(DEFINES)
+CXXFLAGS      = -pipe -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wall -W -fPIE $(DEFINES)
 INCPATH       = -I../../../../Qt/5.4/clang_64/mkspecs/macx-clang -I. -I../common
 QMAKE         = /Users/novokrest/Qt/5.4/clang_64/bin/qmake
 DEL_FILE      = rm -f
@@ -53,13 +53,17 @@ SOURCES       = c_main.cpp \
 		c_simple.cpp \
 		c_test.cpp \
 		../common/request.cpp \
-		../common/utils.cpp 
+		../common/utils.cpp \
+		../common/logger.cpp \
+		../common/response.cpp 
 OBJECTS       = c_main.o \
 		client.o \
 		c_simple.o \
 		c_test.o \
 		request.o \
-		utils.o
+		utils.o \
+		logger.o \
+		response.o
 DIST          = ../../../../Qt/5.4/clang_64/mkspecs/features/spec_pre.prf \
 		../../../../Qt/5.4/clang_64/mkspecs/qdevice.pri \
 		../../../../Qt/5.4/clang_64/mkspecs/features/device_config.prf \
@@ -186,12 +190,16 @@ DIST          = ../../../../Qt/5.4/clang_64/mkspecs/features/spec_pre.prf \
 		../common/common.h \
 		../common/errors.h \
 		../common/request.h \
-		../common/utils.h c_main.cpp \
+		../common/utils.h \
+		../common/logger.h \
+		../common/response.h c_main.cpp \
 		client.cpp \
 		c_simple.cpp \
 		c_test.cpp \
 		../common/request.cpp \
-		../common/utils.cpp
+		../common/utils.cpp \
+		../common/logger.cpp \
+		../common/response.cpp
 QMAKE_TARGET  = Client
 DESTDIR       = #avoid trailing-slash linebreak
 TARGET        = Client
@@ -525,6 +533,7 @@ compiler_clean:
 
 c_main.o: c_main.cpp ../common/common.h \
 		client.h \
+		../common/request.h \
 		../common/utils.h \
 		../common/errors.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o c_main.o c_main.cpp
@@ -550,6 +559,14 @@ utils.o: ../common/utils.cpp ../common/common.h \
 		../common/utils.h \
 		../common/errors.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o utils.o ../common/utils.cpp
+
+logger.o: ../common/logger.cpp ../common/logger.h \
+		../common/common.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o logger.o ../common/logger.cpp
+
+response.o: ../common/response.cpp ../common/response.h \
+		../common/common.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o response.o ../common/response.cpp
 
 ####### Install
 

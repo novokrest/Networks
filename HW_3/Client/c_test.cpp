@@ -7,8 +7,8 @@ int main(int argc, char* argv[])
 {
     cout << "START" << endl;
 
-    int c_argc = 5;
-    char* c_argv[] = {"client", "-sip", "192.168.1.2", "-sport", "7778"};
+    int c_argc = 7;
+    char* c_argv[] = {"client", "-n", "Boss", "-sip", "192.168.1.2", "-sport", "7778"};
     c_main(c_argc, c_argv);
 
     int s_argc = 2;
