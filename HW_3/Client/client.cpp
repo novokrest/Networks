@@ -99,6 +99,7 @@ int client::receive_response()
 
     ss << "Response has been received. Total: " << bytes_readed << " bytes" << endl;
     logger_.log(ss.str());
+    ss.str("");
     ss.clear();
 
     response_from_server.deserialize_from_string(string(buf, bytes_readed));

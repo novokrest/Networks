@@ -33,9 +33,9 @@ static int parse_arguments(char* argv[], string& name, string& server_ip, string
     return 0;
 }
 
-int c_main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
-    srand(time(NULL));
+    init_random();
 
     string name;
     string server_ip;

@@ -2,7 +2,7 @@
 #include "server.h"
 
 
-int s_main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
     if (argc < 2) {
         cout << "Few arguments! Try: server <port>" << endl;

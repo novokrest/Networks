@@ -3,4 +3,3 @@
 clear
 make -f MyMakefile clean
 make -f MyMakefile
-./server

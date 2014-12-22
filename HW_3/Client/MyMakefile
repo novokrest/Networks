@@ -2,7 +2,7 @@ CXX = g++-4.9
 CXXFLAGS = -c -std=c++11 -Wall -W
 LDFLAGS = 
 INCPATH = -I. -I../common
-SOURCES = c_test.cpp c_main.cpp client.cpp ../common/request.cpp ../common/response.cpp ../common/logger.cpp ../common/utils.cpp
+SOURCES = c_main.cpp client.cpp ../common/request.cpp ../common/response.cpp ../common/logger.cpp ../common/utils.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = client
 

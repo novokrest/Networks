@@ -53,12 +53,14 @@ int server::start()
     }
     logger_.log("Start listening...");
 
+    size_t alone_count = 0;
     while(true) {
         fd_set readfs;
         FD_ZERO(&readfs);
         FD_SET(listener_, &readfs);
 
         logger_.log("Listening for connection");
+
         int active_count = select(listener_ + 1, &readfs, NULL, NULL, &timeout_);
         if (active_count < 0) {
             logger_.log("Error occurred while waiting for connections");
@@ -68,7 +70,13 @@ int server::start()
         }
         else if (active_count == 0) {
             logger_.log("No connections is active. Continue waiting...");
-            continue;
+            ++alone_count;
+            if (alone_count == 5) {
+                break;
+            }
+            else {
+                continue;
+            }
         }
 
         ss << "There are " << active_count << " active connections. Start for its processing..." << endl;
@@ -79,7 +87,15 @@ int server::start()
             logger_.log("New incoming connection is available!");
             create_client_connection();
         }
+
+        logger_.save();
     }
+
+    logger_.log("Nobody wants to connect. Exit");
+    logger_.save();
+    close_connection(listener_);
+
+    return 0;
 }
 
 int server::create_client_connection()
@@ -138,7 +154,7 @@ int server::create_client_connection()
     fcntl(clientsock_, F_SETFL, O_NONBLOCK);
 
     ss.clear();
-    ss << "Incomming connection info: " << inet_ntoa(client_addr.sin_addr) << " : " << ntohs(client_addr.sin_port) << endl;
+    ss << "Incomming connection info: " << inet_ntoa(client_addr.sin_addr) << " : " << ntohs(client_addr.sin_port);
     ss << "New client socket was created: " << clientsock << endl;
     logger_.log(ss.str());
     ss.clear();

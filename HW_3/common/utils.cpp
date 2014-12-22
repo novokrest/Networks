@@ -3,6 +3,15 @@
 #include "errors.h"
 
 
+int init_random()
+{
+    struct timeval cur_time;
+    gettimeofday(&cur_time, NULL);
+    srand(cur_time.tv_sec * 1000 + cur_time.tv_usec / 1000);
+
+    return 0;
+}
+
 int get_host_addr_by_ip_and_port(const char *host_ip, unsigned short int host_port, sockaddr_in *host_sockaddr_in)
 {
     struct in_addr host_in_addr;
