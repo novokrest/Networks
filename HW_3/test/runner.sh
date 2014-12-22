@@ -11,7 +11,34 @@ CLIENT_DIR=${SOURCE_DIR}/Client
 CLIENT_START=${CLIENT_DIR}/start.sh
 CLIENT_EXE=${CLIENT_DIR}/client
 
-clients=(clientA clientB clientC clientD clientE clientF clientG)
+clients=(
+clientA
+clientB
+clientC
+clientD
+clientE
+clientF
+clientH
+clientI
+clientJ
+clientK
+clientL
+clientM
+clientN
+clientO
+clientP
+clientQ
+clientR
+clientS
+clientT
+clientU
+clientV
+clientW
+clientX
+clientY
+clientZ
+)
+
 ip=127.0.0.1
 port=7000
 
