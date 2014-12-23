@@ -1,0 +1,21 @@
+[ 0 ms ] START
+[ 1000 ms ] clientT: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 1190 ms ] clientT: Error occurred while connecting to server
+[ 1190 ms ] clientT: Exit
+[ 1196 ms ] END
+[ 0 ms ] START
+[ 1000 ms ] clientT: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 2013 ms ] clientT: Succesfully connected
+[ 2015 ms ] clientT: Generating request...
+[ 2024 ms ] clientT: Try to send data to server
+[ 2028 ms ] clientT: All data has been sent: 10970 bytes
+
+[ 2028 ms ] clientT: Wait for response...
+[ 2106 ms ] clientT: Response has been received. Total: 88 bytes
+
+[ 2106 ms ] clientT: Response not valid!
+[ 2106 ms ] clientT: Close connection to server
+[ 2106 ms ] clientT: Exit
+[ 2106 ms ] END
