@@ -111,6 +111,12 @@ int client::receive_response()
     }
 
     logger_.log("Response is valid. Getting result");
+    if (response_from_server.status() == STATUS_BAD_REQUEST) {
+        logger_.log("Server said that it received BAD REQUEST");
+        close_connection();
+        logger_.log("Exit");
+        exit(EXIT_SUCCESS);
+    }
 
     int32_t result = response_from_server.result();
 
