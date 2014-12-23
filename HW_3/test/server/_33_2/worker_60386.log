@@ -1,0 +1,48 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60386: Hello, I'm new worker!
+[ 0 ms ] worker_60386: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60386: Start wait for client data...
+[ 63 ms ] worker_60386: 2896 bytes were received from client 4
+[ 63 ms ] worker_60386: Start to process client request
+[ 63 ms ] worker_60386: Request is not valid!
+[ 63 ms ] worker_60386: Send response to client
+[ 63 ms ] worker_60386: Start wait for client data...
+[ 63 ms ] worker_60386: 2896 bytes were received from client 4
+[ 63 ms ] worker_60386: Start to process client request
+[ 63 ms ] worker_60386: Request is not valid!
+[ 63 ms ] worker_60386: Send response to client
+[ 63 ms ] worker_60386: Start wait for client data...
+[ 63 ms ] worker_60386: 1448 bytes were received from client 4
+[ 63 ms ] worker_60386: Start to process client request
+[ 63 ms ] worker_60386: Request is not valid!
+[ 63 ms ] worker_60386: Send response to client
+[ 63 ms ] worker_60386: Start wait for client data...
+[ 64 ms ] worker_60386: 2896 bytes were received from client 4
+[ 64 ms ] worker_60386: Start to process client request
+[ 64 ms ] worker_60386: Request is not valid!
+[ 64 ms ] worker_60386: Send response to client
+[ 64 ms ] worker_60386: Start wait for client data...
+[ 64 ms ] worker_60386: 1448 bytes were received from client 4
+[ 64 ms ] worker_60386: Start to process client request
+[ 64 ms ] worker_60386: Request is not valid!
+[ 64 ms ] worker_60386: Send response to client
+[ 64 ms ] worker_60386: Start wait for client data...
+[ 64 ms ] worker_60386: 1448 bytes were received from client 4
+[ 64 ms ] worker_60386: Start to process client request
+[ 64 ms ] worker_60386: Request is not valid!
+[ 64 ms ] worker_60386: Send response to client
+[ 64 ms ] worker_60386: Start wait for client data...
+[ 64 ms ] worker_60386: 1448 bytes were received from client 4
+[ 64 ms ] worker_60386: Start to process client request
+[ 64 ms ] worker_60386: Request is not valid!
+[ 64 ms ] worker_60386: Send response to client
+[ 64 ms ] worker_60386: Start wait for client data...
+[ 2217 ms ] worker_60386: 24 bytes were received from client 4
+[ 2217 ms ] worker_60386: Start to process client request
+[ 2217 ms ] worker_60386: Request is not valid!
+[ 2217 ms ] worker_60386: Send response to client
+[ 2217 ms ] worker_60386: Start wait for client data...
+[ 2234 ms ] worker_60386: Error was occurred while receiving data from client
+[ 2234 ms ] worker_60386: Exit
+[ 2234 ms ] END

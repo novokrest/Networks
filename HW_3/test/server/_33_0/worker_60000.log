@@ -1,0 +1,48 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60000: Hello, I'm new worker!
+[ 0 ms ] worker_60000: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60000: Start wait for client data...
+[ 48 ms ] worker_60000: 1448 bytes were received from client 4
+[ 48 ms ] worker_60000: Start to process client request
+[ 48 ms ] worker_60000: Request is not valid!
+[ 48 ms ] worker_60000: Send response to client
+[ 48 ms ] worker_60000: Start wait for client data...
+[ 48 ms ] worker_60000: 2896 bytes were received from client 4
+[ 48 ms ] worker_60000: Start to process client request
+[ 48 ms ] worker_60000: Request is not valid!
+[ 48 ms ] worker_60000: Send response to client
+[ 48 ms ] worker_60000: Start wait for client data...
+[ 48 ms ] worker_60000: 1448 bytes were received from client 4
+[ 48 ms ] worker_60000: Start to process client request
+[ 48 ms ] worker_60000: Request is not valid!
+[ 48 ms ] worker_60000: Send response to client
+[ 48 ms ] worker_60000: Start wait for client data...
+[ 48 ms ] worker_60000: 1448 bytes were received from client 4
+[ 48 ms ] worker_60000: Start to process client request
+[ 48 ms ] worker_60000: Request is not valid!
+[ 48 ms ] worker_60000: Send response to client
+[ 48 ms ] worker_60000: Start wait for client data...
+[ 50 ms ] worker_60000: 2896 bytes were received from client 4
+[ 50 ms ] worker_60000: Start to process client request
+[ 50 ms ] worker_60000: Request is not valid!
+[ 50 ms ] worker_60000: Send response to client
+[ 50 ms ] worker_60000: Start wait for client data...
+[ 50 ms ] worker_60000: 1448 bytes were received from client 4
+[ 50 ms ] worker_60000: Start to process client request
+[ 50 ms ] worker_60000: Request is not valid!
+[ 50 ms ] worker_60000: Send response to client
+[ 50 ms ] worker_60000: Start wait for client data...
+[ 51 ms ] worker_60000: 1448 bytes were received from client 4
+[ 51 ms ] worker_60000: Start to process client request
+[ 51 ms ] worker_60000: Request is not valid!
+[ 51 ms ] worker_60000: Send response to client
+[ 51 ms ] worker_60000: Start wait for client data...
+[ 58 ms ] worker_60000: 616 bytes were received from client 4
+[ 58 ms ] worker_60000: Start to process client request
+[ 58 ms ] worker_60000: Request is not valid!
+[ 58 ms ] worker_60000: Send response to client
+[ 58 ms ] worker_60000: Start wait for client data...
+[ 118 ms ] worker_60000: Receive 0 bytes. Client closed connection. Goodbye!
+[ 118 ms ] worker_60000: Exit
+[ 118 ms ] END

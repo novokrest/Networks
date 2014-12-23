@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_59936: Hello, I'm new worker!
+[ 0 ms ] worker_59936: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_59936: Start wait for client data...
+[ 19 ms ] worker_59936: 1448 bytes were received from client 4
+[ 19 ms ] worker_59936: Start to process client request
+[ 19 ms ] worker_59936: Request is not valid!
+[ 19 ms ] worker_59936: Send response to client
+[ 19 ms ] worker_59936: Start wait for client data...
+[ 20 ms ] worker_59936: 1448 bytes were received from client 4
+[ 20 ms ] worker_59936: Start to process client request
+[ 20 ms ] worker_59936: Request is not valid!
+[ 20 ms ] worker_59936: Send response to client
+[ 20 ms ] worker_59936: Start wait for client data...
+[ 27 ms ] worker_59936: 1448 bytes were received from client 4
+[ 27 ms ] worker_59936: Start to process client request
+[ 27 ms ] worker_59936: Request is not valid!
+[ 27 ms ] worker_59936: Send response to client
+[ 27 ms ] worker_59936: Start wait for client data...
+[ 27 ms ] worker_59936: 2896 bytes were received from client 4
+[ 27 ms ] worker_59936: Start to process client request
+[ 27 ms ] worker_59936: Request is not valid!
+[ 27 ms ] worker_59936: Send response to client
+[ 27 ms ] worker_59936: Start wait for client data...
+[ 27 ms ] worker_59936: 1448 bytes were received from client 4
+[ 27 ms ] worker_59936: Start to process client request
+[ 27 ms ] worker_59936: Request is not valid!
+[ 27 ms ] worker_59936: Send response to client
+[ 27 ms ] worker_59936: Start wait for client data...
+[ 27 ms ] worker_59936: 1448 bytes were received from client 4
+[ 27 ms ] worker_59936: Start to process client request
+[ 27 ms ] worker_59936: Request is not valid!
+[ 27 ms ] worker_59936: Send response to client
+[ 28 ms ] worker_59936: Start wait for client data...
+[ 28 ms ] worker_59936: 68 bytes were received from client 4
+[ 28 ms ] worker_59936: Start to process client request
+[ 28 ms ] worker_59936: Request is not valid!
+[ 28 ms ] worker_59936: Send response to client
+[ 28 ms ] worker_59936: Start wait for client data...
+[ 89 ms ] worker_59936: Receive 0 bytes. Client closed connection. Goodbye!
+[ 89 ms ] worker_59936: Exit
+[ 89 ms ] END

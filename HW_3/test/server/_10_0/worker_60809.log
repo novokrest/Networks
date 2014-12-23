@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60809: Hello, I'm new worker!
+[ 0 ms ] worker_60809: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60809: Start wait for client data...
+[ 28 ms ] worker_60809: 1448 bytes were received from client 4
+[ 28 ms ] worker_60809: Start to process client request
+[ 28 ms ] worker_60809: Request is not valid!
+[ 28 ms ] worker_60809: Send response to client
+[ 28 ms ] worker_60809: Start wait for client data...
+[ 28 ms ] worker_60809: 1448 bytes were received from client 4
+[ 29 ms ] worker_60809: Start to process client request
+[ 29 ms ] worker_60809: Request is not valid!
+[ 29 ms ] worker_60809: Send response to client
+[ 29 ms ] worker_60809: Start wait for client data...
+[ 29 ms ] worker_60809: 1448 bytes were received from client 4
+[ 29 ms ] worker_60809: Start to process client request
+[ 29 ms ] worker_60809: Request is not valid!
+[ 29 ms ] worker_60809: Send response to client
+[ 29 ms ] worker_60809: Start wait for client data...
+[ 29 ms ] worker_60809: 1448 bytes were received from client 4
+[ 29 ms ] worker_60809: Start to process client request
+[ 29 ms ] worker_60809: Request is not valid!
+[ 29 ms ] worker_60809: Send response to client
+[ 29 ms ] worker_60809: Start wait for client data...
+[ 29 ms ] worker_60809: 1448 bytes were received from client 4
+[ 29 ms ] worker_60809: Start to process client request
+[ 29 ms ] worker_60809: Request is not valid!
+[ 29 ms ] worker_60809: Send response to client
+[ 29 ms ] worker_60809: Start wait for client data...
+[ 29 ms ] worker_60809: 1448 bytes were received from client 4
+[ 29 ms ] worker_60809: Start to process client request
+[ 29 ms ] worker_60809: Request is not valid!
+[ 29 ms ] worker_60809: Send response to client
+[ 29 ms ] worker_60809: Start wait for client data...
+[ 29 ms ] worker_60809: 446 bytes were received from client 4
+[ 29 ms ] worker_60809: Start to process client request
+[ 29 ms ] worker_60809: Request is not valid!
+[ 29 ms ] worker_60809: Send response to client
+[ 29 ms ] worker_60809: Start wait for client data...
+[ 81 ms ] worker_60809: Error was occurred while receiving data from client
+[ 81 ms ] worker_60809: Exit
+[ 82 ms ] END

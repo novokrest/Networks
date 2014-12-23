@@ -1,0 +1,14 @@
+[ 0 ms ] START
+[ 0 ms ] worker_61360: Hello, I'm new worker!
+[ 0 ms ] worker_61360: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_61360: Start wait for client data...
+[ 0 ms ] worker_61360: 19560 bytes were received from client 4
+[ 0 ms ] worker_61360: Start to process client request
+[ 0 ms ] worker_61360: Request is valid. Begin result computing...
+[ 4 ms ] worker_61360: Computing completed
+[ 4 ms ] worker_61360: Send response to client
+[ 4 ms ] worker_61360: Start wait for client data...
+[ 4 ms ] worker_61360: Receive 0 bytes. Client closed connection. Goodbye!
+[ 4 ms ] worker_61360: Exit
+[ 5 ms ] END

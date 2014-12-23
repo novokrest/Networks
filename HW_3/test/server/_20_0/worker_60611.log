@@ -1,0 +1,48 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60611: Hello, I'm new worker!
+[ 0 ms ] worker_60611: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60611: Start wait for client data...
+[ 52 ms ] worker_60611: 1448 bytes were received from client 4
+[ 52 ms ] worker_60611: Start to process client request
+[ 52 ms ] worker_60611: Request is not valid!
+[ 52 ms ] worker_60611: Send response to client
+[ 52 ms ] worker_60611: Start wait for client data...
+[ 52 ms ] worker_60611: 1448 bytes were received from client 4
+[ 52 ms ] worker_60611: Start to process client request
+[ 52 ms ] worker_60611: Request is not valid!
+[ 52 ms ] worker_60611: Send response to client
+[ 52 ms ] worker_60611: Start wait for client data...
+[ 52 ms ] worker_60611: 1448 bytes were received from client 4
+[ 52 ms ] worker_60611: Start to process client request
+[ 52 ms ] worker_60611: Request is not valid!
+[ 52 ms ] worker_60611: Send response to client
+[ 52 ms ] worker_60611: Start wait for client data...
+[ 59 ms ] worker_60611: 2896 bytes were received from client 4
+[ 60 ms ] worker_60611: Start to process client request
+[ 60 ms ] worker_60611: Request is not valid!
+[ 60 ms ] worker_60611: Send response to client
+[ 60 ms ] worker_60611: Start wait for client data...
+[ 60 ms ] worker_60611: 2896 bytes were received from client 4
+[ 60 ms ] worker_60611: Start to process client request
+[ 60 ms ] worker_60611: Request is not valid!
+[ 60 ms ] worker_60611: Send response to client
+[ 60 ms ] worker_60611: Start wait for client data...
+[ 60 ms ] worker_60611: 2896 bytes were received from client 4
+[ 60 ms ] worker_60611: Start to process client request
+[ 60 ms ] worker_60611: Request is not valid!
+[ 60 ms ] worker_60611: Send response to client
+[ 60 ms ] worker_60611: Start wait for client data...
+[ 60 ms ] worker_60611: 1448 bytes were received from client 4
+[ 60 ms ] worker_60611: Start to process client request
+[ 60 ms ] worker_60611: Request is not valid!
+[ 60 ms ] worker_60611: Send response to client
+[ 60 ms ] worker_60611: Start wait for client data...
+[ 91 ms ] worker_60611: 2654 bytes were received from client 4
+[ 91 ms ] worker_60611: Start to process client request
+[ 91 ms ] worker_60611: Request is not valid!
+[ 91 ms ] worker_60611: Send response to client
+[ 91 ms ] worker_60611: Start wait for client data...
+[ 94 ms ] worker_60611: Receive 0 bytes. Client closed connection. Goodbye!
+[ 94 ms ] worker_60611: Exit
+[ 95 ms ] END

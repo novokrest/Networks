@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60785: Hello, I'm new worker!
+[ 0 ms ] worker_60785: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60785: Start wait for client data...
+[ 1 ms ] worker_60785: 1448 bytes were received from client 4
+[ 1 ms ] worker_60785: Start to process client request
+[ 1 ms ] worker_60785: Request is not valid!
+[ 1 ms ] worker_60785: Send response to client
+[ 1 ms ] worker_60785: Start wait for client data...
+[ 1 ms ] worker_60785: 1448 bytes were received from client 4
+[ 1 ms ] worker_60785: Start to process client request
+[ 1 ms ] worker_60785: Request is not valid!
+[ 1 ms ] worker_60785: Send response to client
+[ 1 ms ] worker_60785: Start wait for client data...
+[ 5 ms ] worker_60785: 1448 bytes were received from client 4
+[ 5 ms ] worker_60785: Start to process client request
+[ 5 ms ] worker_60785: Request is not valid!
+[ 5 ms ] worker_60785: Send response to client
+[ 5 ms ] worker_60785: Start wait for client data...
+[ 5 ms ] worker_60785: 2896 bytes were received from client 4
+[ 5 ms ] worker_60785: Start to process client request
+[ 5 ms ] worker_60785: Request is not valid!
+[ 5 ms ] worker_60785: Send response to client
+[ 5 ms ] worker_60785: Start wait for client data...
+[ 6 ms ] worker_60785: 1448 bytes were received from client 4
+[ 6 ms ] worker_60785: Start to process client request
+[ 6 ms ] worker_60785: Request is not valid!
+[ 6 ms ] worker_60785: Send response to client
+[ 6 ms ] worker_60785: Start wait for client data...
+[ 6 ms ] worker_60785: 1448 bytes were received from client 4
+[ 6 ms ] worker_60785: Start to process client request
+[ 6 ms ] worker_60785: Request is not valid!
+[ 6 ms ] worker_60785: Send response to client
+[ 6 ms ] worker_60785: Start wait for client data...
+[ 11 ms ] worker_60785: 2738 bytes were received from client 4
+[ 11 ms ] worker_60785: Start to process client request
+[ 11 ms ] worker_60785: Request is not valid!
+[ 11 ms ] worker_60785: Send response to client
+[ 11 ms ] worker_60785: Start wait for client data...
+[ 29 ms ] worker_60785: Receive 0 bytes. Client closed connection. Goodbye!
+[ 29 ms ] worker_60785: Exit
+[ 29 ms ] END

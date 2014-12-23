@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60593: Hello, I'm new worker!
+[ 0 ms ] worker_60593: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60593: Start wait for client data...
+[ 10 ms ] worker_60593: 1448 bytes were received from client 4
+[ 10 ms ] worker_60593: Start to process client request
+[ 10 ms ] worker_60593: Request is not valid!
+[ 10 ms ] worker_60593: Send response to client
+[ 10 ms ] worker_60593: Start wait for client data...
+[ 10 ms ] worker_60593: 2896 bytes were received from client 4
+[ 10 ms ] worker_60593: Start to process client request
+[ 10 ms ] worker_60593: Request is not valid!
+[ 10 ms ] worker_60593: Send response to client
+[ 10 ms ] worker_60593: Start wait for client data...
+[ 10 ms ] worker_60593: 1448 bytes were received from client 4
+[ 10 ms ] worker_60593: Start to process client request
+[ 10 ms ] worker_60593: Request is not valid!
+[ 10 ms ] worker_60593: Send response to client
+[ 10 ms ] worker_60593: Start wait for client data...
+[ 10 ms ] worker_60593: 1448 bytes were received from client 4
+[ 10 ms ] worker_60593: Start to process client request
+[ 10 ms ] worker_60593: Request is not valid!
+[ 10 ms ] worker_60593: Send response to client
+[ 10 ms ] worker_60593: Start wait for client data...
+[ 10 ms ] worker_60593: 1448 bytes were received from client 4
+[ 10 ms ] worker_60593: Start to process client request
+[ 10 ms ] worker_60593: Request is not valid!
+[ 10 ms ] worker_60593: Send response to client
+[ 10 ms ] worker_60593: Start wait for client data...
+[ 10 ms ] worker_60593: 1448 bytes were received from client 4
+[ 10 ms ] worker_60593: Start to process client request
+[ 10 ms ] worker_60593: Request is not valid!
+[ 10 ms ] worker_60593: Send response to client
+[ 10 ms ] worker_60593: Start wait for client data...
+[ 10 ms ] worker_60593: 2482 bytes were received from client 4
+[ 10 ms ] worker_60593: Start to process client request
+[ 10 ms ] worker_60593: Request is not valid!
+[ 10 ms ] worker_60593: Send response to client
+[ 10 ms ] worker_60593: Start wait for client data...
+[ 115 ms ] worker_60593: Error was occurred while receiving data from client
+[ 115 ms ] worker_60593: Exit
+[ 115 ms ] END

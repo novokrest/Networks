@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60374: Hello, I'm new worker!
+[ 0 ms ] worker_60374: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60374: Start wait for client data...
+[ 88 ms ] worker_60374: 1448 bytes were received from client 4
+[ 88 ms ] worker_60374: Start to process client request
+[ 88 ms ] worker_60374: Request is not valid!
+[ 88 ms ] worker_60374: Send response to client
+[ 88 ms ] worker_60374: Start wait for client data...
+[ 88 ms ] worker_60374: 1448 bytes were received from client 4
+[ 88 ms ] worker_60374: Start to process client request
+[ 88 ms ] worker_60374: Request is not valid!
+[ 88 ms ] worker_60374: Send response to client
+[ 88 ms ] worker_60374: Start wait for client data...
+[ 88 ms ] worker_60374: 2896 bytes were received from client 4
+[ 88 ms ] worker_60374: Start to process client request
+[ 88 ms ] worker_60374: Request is not valid!
+[ 88 ms ] worker_60374: Send response to client
+[ 88 ms ] worker_60374: Start wait for client data...
+[ 88 ms ] worker_60374: 1448 bytes were received from client 4
+[ 88 ms ] worker_60374: Start to process client request
+[ 88 ms ] worker_60374: Request is not valid!
+[ 88 ms ] worker_60374: Send response to client
+[ 88 ms ] worker_60374: Start wait for client data...
+[ 88 ms ] worker_60374: 1448 bytes were received from client 4
+[ 88 ms ] worker_60374: Start to process client request
+[ 88 ms ] worker_60374: Request is not valid!
+[ 88 ms ] worker_60374: Send response to client
+[ 88 ms ] worker_60374: Start wait for client data...
+[ 88 ms ] worker_60374: 1448 bytes were received from client 4
+[ 88 ms ] worker_60374: Start to process client request
+[ 88 ms ] worker_60374: Request is not valid!
+[ 88 ms ] worker_60374: Send response to client
+[ 88 ms ] worker_60374: Start wait for client data...
+[ 88 ms ] worker_60374: 2348 bytes were received from client 4
+[ 88 ms ] worker_60374: Start to process client request
+[ 88 ms ] worker_60374: Request is not valid!
+[ 88 ms ] worker_60374: Send response to client
+[ 88 ms ] worker_60374: Start wait for client data...
+[ 2233 ms ] worker_60374: Error was occurred while receiving data from client
+[ 2233 ms ] worker_60374: Exit
+[ 2235 ms ] END

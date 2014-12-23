@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_61777: Hello, I'm new worker!
+[ 0 ms ] worker_61777: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_61777: Start wait for client data...
+[ 62 ms ] worker_61777: 2896 bytes were received from client 4
+[ 62 ms ] worker_61777: Start to process client request
+[ 62 ms ] worker_61777: Request is not valid!
+[ 62 ms ] worker_61777: Send response to client
+[ 62 ms ] worker_61777: Start wait for client data...
+[ 62 ms ] worker_61777: 1448 bytes were received from client 4
+[ 62 ms ] worker_61777: Start to process client request
+[ 62 ms ] worker_61777: Request is not valid!
+[ 62 ms ] worker_61777: Send response to client
+[ 62 ms ] worker_61777: Start wait for client data...
+[ 62 ms ] worker_61777: 1448 bytes were received from client 4
+[ 62 ms ] worker_61777: Start to process client request
+[ 62 ms ] worker_61777: Request is not valid!
+[ 62 ms ] worker_61777: Send response to client
+[ 62 ms ] worker_61777: Start wait for client data...
+[ 62 ms ] worker_61777: 2896 bytes were received from client 4
+[ 62 ms ] worker_61777: Start to process client request
+[ 62 ms ] worker_61777: Request is not valid!
+[ 62 ms ] worker_61777: Send response to client
+[ 62 ms ] worker_61777: Start wait for client data...
+[ 63 ms ] worker_61777: 2896 bytes were received from client 4
+[ 63 ms ] worker_61777: Start to process client request
+[ 63 ms ] worker_61777: Request is not valid!
+[ 63 ms ] worker_61777: Send response to client
+[ 63 ms ] worker_61777: Start wait for client data...
+[ 63 ms ] worker_61777: 1448 bytes were received from client 4
+[ 63 ms ] worker_61777: Start to process client request
+[ 63 ms ] worker_61777: Request is not valid!
+[ 63 ms ] worker_61777: Send response to client
+[ 63 ms ] worker_61777: Start wait for client data...
+[ 63 ms ] worker_61777: 1368 bytes were received from client 4
+[ 63 ms ] worker_61777: Start to process client request
+[ 63 ms ] worker_61777: Request is not valid!
+[ 63 ms ] worker_61777: Send response to client
+[ 63 ms ] worker_61777: Start wait for client data...
+[ 146 ms ] worker_61777: Receive 0 bytes. Client closed connection. Goodbye!
+[ 146 ms ] worker_61777: Exit
+[ 146 ms ] END
