@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60630: Hello, I'm new worker!
+[ 0 ms ] worker_60630: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60630: Start wait for client data...
+[ 15 ms ] worker_60630: 1448 bytes were received from client 4
+[ 15 ms ] worker_60630: Start to process client request
+[ 15 ms ] worker_60630: Request is not valid!
+[ 15 ms ] worker_60630: Send response to client
+[ 15 ms ] worker_60630: Start wait for client data...
+[ 15 ms ] worker_60630: 1448 bytes were received from client 4
+[ 15 ms ] worker_60630: Start to process client request
+[ 15 ms ] worker_60630: Request is not valid!
+[ 15 ms ] worker_60630: Send response to client
+[ 15 ms ] worker_60630: Start wait for client data...
+[ 18 ms ] worker_60630: 1448 bytes were received from client 4
+[ 18 ms ] worker_60630: Start to process client request
+[ 18 ms ] worker_60630: Request is not valid!
+[ 18 ms ] worker_60630: Send response to client
+[ 18 ms ] worker_60630: Start wait for client data...
+[ 19 ms ] worker_60630: 1448 bytes were received from client 4
+[ 19 ms ] worker_60630: Start to process client request
+[ 19 ms ] worker_60630: Request is not valid!
+[ 19 ms ] worker_60630: Send response to client
+[ 19 ms ] worker_60630: Start wait for client data...
+[ 19 ms ] worker_60630: 2896 bytes were received from client 4
+[ 19 ms ] worker_60630: Start to process client request
+[ 19 ms ] worker_60630: Request is not valid!
+[ 19 ms ] worker_60630: Send response to client
+[ 19 ms ] worker_60630: Start wait for client data...
+[ 20 ms ] worker_60630: 1448 bytes were received from client 4
+[ 20 ms ] worker_60630: Start to process client request
+[ 20 ms ] worker_60630: Request is not valid!
+[ 20 ms ] worker_60630: Send response to client
+[ 20 ms ] worker_60630: Start wait for client data...
+[ 22 ms ] worker_60630: 1182 bytes were received from client 4
+[ 22 ms ] worker_60630: Start to process client request
+[ 22 ms ] worker_60630: Request is not valid!
+[ 22 ms ] worker_60630: Send response to client
+[ 22 ms ] worker_60630: Start wait for client data...
+[ 71 ms ] worker_60630: Receive 0 bytes. Client closed connection. Goodbye!
+[ 71 ms ] worker_60630: Exit
+[ 72 ms ] END

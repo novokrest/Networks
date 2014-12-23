@@ -1,0 +1,78 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60159: Hello, I'm new worker!
+[ 0 ms ] worker_60159: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60159: Start wait for client data...
+[ 0 ms ] worker_60159: 1448 bytes were received from client 4
+[ 0 ms ] worker_60159: Start to process client request
+[ 0 ms ] worker_60159: Request is not valid!
+[ 0 ms ] worker_60159: Send response to client
+[ 0 ms ] worker_60159: Start wait for client data...
+[ 0 ms ] worker_60159: 1448 bytes were received from client 4
+[ 0 ms ] worker_60159: Start to process client request
+[ 0 ms ] worker_60159: Request is not valid!
+[ 0 ms ] worker_60159: Send response to client
+[ 0 ms ] worker_60159: Start wait for client data...
+[ 2 ms ] worker_60159: 1448 bytes were received from client 4
+[ 2 ms ] worker_60159: Start to process client request
+[ 2 ms ] worker_60159: Request is not valid!
+[ 2 ms ] worker_60159: Send response to client
+[ 2 ms ] worker_60159: Start wait for client data...
+[ 2 ms ] worker_60159: 1448 bytes were received from client 4
+[ 3 ms ] worker_60159: Start to process client request
+[ 3 ms ] worker_60159: Request is not valid!
+[ 3 ms ] worker_60159: Send response to client
+[ 3 ms ] worker_60159: Start wait for client data...
+[ 3 ms ] worker_60159: 1448 bytes were received from client 4
+[ 3 ms ] worker_60159: Start to process client request
+[ 3 ms ] worker_60159: Request is not valid!
+[ 3 ms ] worker_60159: Send response to client
+[ 3 ms ] worker_60159: Start wait for client data...
+[ 3 ms ] worker_60159: 1448 bytes were received from client 4
+[ 3 ms ] worker_60159: Start to process client request
+[ 3 ms ] worker_60159: Request is not valid!
+[ 3 ms ] worker_60159: Send response to client
+[ 3 ms ] worker_60159: Start wait for client data...
+[ 3 ms ] worker_60159: 1448 bytes were received from client 4
+[ 3 ms ] worker_60159: Start to process client request
+[ 3 ms ] worker_60159: Request is not valid!
+[ 3 ms ] worker_60159: Send response to client
+[ 3 ms ] worker_60159: Start wait for client data...
+[ 3 ms ] worker_60159: 1448 bytes were received from client 4
+[ 3 ms ] worker_60159: Start to process client request
+[ 3 ms ] worker_60159: Request is not valid!
+[ 3 ms ] worker_60159: Send response to client
+[ 3 ms ] worker_60159: Start wait for client data...
+[ 3 ms ] worker_60159: 1448 bytes were received from client 4
+[ 3 ms ] worker_60159: Start to process client request
+[ 3 ms ] worker_60159: Request is not valid!
+[ 3 ms ] worker_60159: Send response to client
+[ 3 ms ] worker_60159: Start wait for client data...
+[ 3 ms ] worker_60159: 1448 bytes were received from client 4
+[ 3 ms ] worker_60159: Start to process client request
+[ 3 ms ] worker_60159: Request is not valid!
+[ 3 ms ] worker_60159: Send response to client
+[ 3 ms ] worker_60159: Start wait for client data...
+[ 9 ms ] worker_60159: 1448 bytes were received from client 4
+[ 9 ms ] worker_60159: Start to process client request
+[ 9 ms ] worker_60159: Request is not valid!
+[ 9 ms ] worker_60159: Send response to client
+[ 9 ms ] worker_60159: Start wait for client data...
+[ 9 ms ] worker_60159: 1448 bytes were received from client 4
+[ 9 ms ] worker_60159: Start to process client request
+[ 9 ms ] worker_60159: Request is not valid!
+[ 9 ms ] worker_60159: Send response to client
+[ 9 ms ] worker_60159: Start wait for client data...
+[ 20 ms ] worker_60159: 1448 bytes were received from client 4
+[ 20 ms ] worker_60159: Start to process client request
+[ 20 ms ] worker_60159: Request is not valid!
+[ 20 ms ] worker_60159: Send response to client
+[ 20 ms ] worker_60159: Start wait for client data...
+[ 20 ms ] worker_60159: 138 bytes were received from client 4
+[ 20 ms ] worker_60159: Start to process client request
+[ 20 ms ] worker_60159: Request is not valid!
+[ 20 ms ] worker_60159: Send response to client
+[ 20 ms ] worker_60159: Start wait for client data...
+[ 22 ms ] worker_60159: Error was occurred while receiving data from client
+[ 22 ms ] worker_60159: Exit
+[ 22 ms ] END

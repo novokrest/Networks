@@ -1,0 +1,403 @@
+[ 0 ms ] START
+[ 0 ms ] worker_62138: Hello, I'm new worker!
+[ 0 ms ] worker_62138: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_62138: Start wait for client data...
+[ 407 ms ] worker_62138: 14480 bytes were received from client 4
+[ 407 ms ] worker_62138: Start to process client request
+[ 407 ms ] worker_62138: Request is not valid!
+[ 407 ms ] worker_62138: Send response to client
+[ 407 ms ] worker_62138: Start wait for client data...
+[ 473 ms ] worker_62138: 20008 bytes were received from client 4
+[ 473 ms ] worker_62138: Start to process client request
+[ 473 ms ] worker_62138: Request is not valid!
+[ 473 ms ] worker_62138: Send response to client
+[ 473 ms ] worker_62138: Start wait for client data...
+[ 473 ms ] worker_62138: 10400 bytes were received from client 4
+[ 473 ms ] worker_62138: Start to process client request
+[ 473 ms ] worker_62138: Request is not valid!
+[ 473 ms ] worker_62138: Send response to client
+[ 473 ms ] worker_62138: Start wait for client data...
+[ 479 ms ] worker_62138: 1448 bytes were received from client 4
+[ 479 ms ] worker_62138: Start to process client request
+[ 479 ms ] worker_62138: Request is not valid!
+[ 479 ms ] worker_62138: Send response to client
+[ 479 ms ] worker_62138: Start wait for client data...
+[ 479 ms ] worker_62138: 1448 bytes were received from client 4
+[ 479 ms ] worker_62138: Start to process client request
+[ 479 ms ] worker_62138: Request is not valid!
+[ 479 ms ] worker_62138: Send response to client
+[ 479 ms ] worker_62138: Start wait for client data...
+[ 480 ms ] worker_62138: 1448 bytes were received from client 4
+[ 480 ms ] worker_62138: Start to process client request
+[ 480 ms ] worker_62138: Request is not valid!
+[ 480 ms ] worker_62138: Send response to client
+[ 480 ms ] worker_62138: Start wait for client data...
+[ 481 ms ] worker_62138: 1448 bytes were received from client 4
+[ 481 ms ] worker_62138: Start to process client request
+[ 481 ms ] worker_62138: Request is not valid!
+[ 481 ms ] worker_62138: Send response to client
+[ 481 ms ] worker_62138: Start wait for client data...
+[ 481 ms ] worker_62138: 1448 bytes were received from client 4
+[ 481 ms ] worker_62138: Start to process client request
+[ 481 ms ] worker_62138: Request is not valid!
+[ 481 ms ] worker_62138: Send response to client
+[ 481 ms ] worker_62138: Start wait for client data...
+[ 482 ms ] worker_62138: 1448 bytes were received from client 4
+[ 482 ms ] worker_62138: Start to process client request
+[ 482 ms ] worker_62138: Request is not valid!
+[ 482 ms ] worker_62138: Send response to client
+[ 482 ms ] worker_62138: Start wait for client data...
+[ 492 ms ] worker_62138: 1448 bytes were received from client 4
+[ 492 ms ] worker_62138: Start to process client request
+[ 492 ms ] worker_62138: Request is not valid!
+[ 492 ms ] worker_62138: Send response to client
+[ 492 ms ] worker_62138: Start wait for client data...
+[ 492 ms ] worker_62138: 1448 bytes were received from client 4
+[ 492 ms ] worker_62138: Start to process client request
+[ 492 ms ] worker_62138: Request is not valid!
+[ 492 ms ] worker_62138: Send response to client
+[ 492 ms ] worker_62138: Start wait for client data...
+[ 504 ms ] worker_62138: 1448 bytes were received from client 4
+[ 504 ms ] worker_62138: Start to process client request
+[ 504 ms ] worker_62138: Request is not valid!
+[ 504 ms ] worker_62138: Send response to client
+[ 504 ms ] worker_62138: Start wait for client data...
+[ 507 ms ] worker_62138: 1448 bytes were received from client 4
+[ 507 ms ] worker_62138: Start to process client request
+[ 507 ms ] worker_62138: Request is not valid!
+[ 507 ms ] worker_62138: Send response to client
+[ 507 ms ] worker_62138: Start wait for client data...
+[ 508 ms ] worker_62138: 1448 bytes were received from client 4
+[ 508 ms ] worker_62138: Start to process client request
+[ 508 ms ] worker_62138: Request is not valid!
+[ 508 ms ] worker_62138: Send response to client
+[ 508 ms ] worker_62138: Start wait for client data...
+[ 508 ms ] worker_62138: 1448 bytes were received from client 4
+[ 508 ms ] worker_62138: Start to process client request
+[ 508 ms ] worker_62138: Request is not valid!
+[ 508 ms ] worker_62138: Send response to client
+[ 508 ms ] worker_62138: Start wait for client data...
+[ 513 ms ] worker_62138: 2896 bytes were received from client 4
+[ 513 ms ] worker_62138: Start to process client request
+[ 513 ms ] worker_62138: Request is not valid!
+[ 513 ms ] worker_62138: Send response to client
+[ 513 ms ] worker_62138: Start wait for client data...
+[ 513 ms ] worker_62138: 1448 bytes were received from client 4
+[ 513 ms ] worker_62138: Start to process client request
+[ 513 ms ] worker_62138: Request is not valid!
+[ 513 ms ] worker_62138: Send response to client
+[ 513 ms ] worker_62138: Start wait for client data...
+[ 513 ms ] worker_62138: 1448 bytes were received from client 4
+[ 513 ms ] worker_62138: Start to process client request
+[ 513 ms ] worker_62138: Request is not valid!
+[ 513 ms ] worker_62138: Send response to client
+[ 513 ms ] worker_62138: Start wait for client data...
+[ 514 ms ] worker_62138: 1448 bytes were received from client 4
+[ 514 ms ] worker_62138: Start to process client request
+[ 514 ms ] worker_62138: Request is not valid!
+[ 514 ms ] worker_62138: Send response to client
+[ 514 ms ] worker_62138: Start wait for client data...
+[ 516 ms ] worker_62138: 1448 bytes were received from client 4
+[ 516 ms ] worker_62138: Start to process client request
+[ 516 ms ] worker_62138: Request is not valid!
+[ 516 ms ] worker_62138: Send response to client
+[ 516 ms ] worker_62138: Start wait for client data...
+[ 516 ms ] worker_62138: 1448 bytes were received from client 4
+[ 516 ms ] worker_62138: Start to process client request
+[ 516 ms ] worker_62138: Request is not valid!
+[ 516 ms ] worker_62138: Send response to client
+[ 516 ms ] worker_62138: Start wait for client data...
+[ 531 ms ] worker_62138: 1448 bytes were received from client 4
+[ 531 ms ] worker_62138: Start to process client request
+[ 531 ms ] worker_62138: Request is not valid!
+[ 531 ms ] worker_62138: Send response to client
+[ 531 ms ] worker_62138: Start wait for client data...
+[ 531 ms ] worker_62138: 1448 bytes were received from client 4
+[ 531 ms ] worker_62138: Start to process client request
+[ 531 ms ] worker_62138: Request is not valid!
+[ 531 ms ] worker_62138: Send response to client
+[ 531 ms ] worker_62138: Start wait for client data...
+[ 543 ms ] worker_62138: 1448 bytes were received from client 4
+[ 543 ms ] worker_62138: Start to process client request
+[ 543 ms ] worker_62138: Request is not valid!
+[ 543 ms ] worker_62138: Send response to client
+[ 543 ms ] worker_62138: Start wait for client data...
+[ 547 ms ] worker_62138: 1448 bytes were received from client 4
+[ 547 ms ] worker_62138: Start to process client request
+[ 547 ms ] worker_62138: Request is not valid!
+[ 547 ms ] worker_62138: Send response to client
+[ 547 ms ] worker_62138: Start wait for client data...
+[ 547 ms ] worker_62138: 2896 bytes were received from client 4
+[ 547 ms ] worker_62138: Start to process client request
+[ 547 ms ] worker_62138: Request is not valid!
+[ 547 ms ] worker_62138: Send response to client
+[ 547 ms ] worker_62138: Start wait for client data...
+[ 547 ms ] worker_62138: 1448 bytes were received from client 4
+[ 547 ms ] worker_62138: Start to process client request
+[ 547 ms ] worker_62138: Request is not valid!
+[ 547 ms ] worker_62138: Send response to client
+[ 547 ms ] worker_62138: Start wait for client data...
+[ 552 ms ] worker_62138: 1448 bytes were received from client 4
+[ 552 ms ] worker_62138: Start to process client request
+[ 552 ms ] worker_62138: Request is not valid!
+[ 552 ms ] worker_62138: Send response to client
+[ 552 ms ] worker_62138: Start wait for client data...
+[ 553 ms ] worker_62138: 2896 bytes were received from client 4
+[ 553 ms ] worker_62138: Start to process client request
+[ 553 ms ] worker_62138: Request is not valid!
+[ 553 ms ] worker_62138: Send response to client
+[ 553 ms ] worker_62138: Start wait for client data...
+[ 559 ms ] worker_62138: 1448 bytes were received from client 4
+[ 559 ms ] worker_62138: Start to process client request
+[ 559 ms ] worker_62138: Request is not valid!
+[ 559 ms ] worker_62138: Send response to client
+[ 559 ms ] worker_62138: Start wait for client data...
+[ 560 ms ] worker_62138: 2896 bytes were received from client 4
+[ 560 ms ] worker_62138: Start to process client request
+[ 560 ms ] worker_62138: Request is not valid!
+[ 560 ms ] worker_62138: Send response to client
+[ 560 ms ] worker_62138: Start wait for client data...
+[ 560 ms ] worker_62138: 1448 bytes were received from client 4
+[ 560 ms ] worker_62138: Start to process client request
+[ 560 ms ] worker_62138: Request is not valid!
+[ 560 ms ] worker_62138: Send response to client
+[ 560 ms ] worker_62138: Start wait for client data...
+[ 574 ms ] worker_62138: 1448 bytes were received from client 4
+[ 574 ms ] worker_62138: Start to process client request
+[ 574 ms ] worker_62138: Request is not valid!
+[ 574 ms ] worker_62138: Send response to client
+[ 574 ms ] worker_62138: Start wait for client data...
+[ 574 ms ] worker_62138: 1448 bytes were received from client 4
+[ 574 ms ] worker_62138: Start to process client request
+[ 574 ms ] worker_62138: Request is not valid!
+[ 574 ms ] worker_62138: Send response to client
+[ 574 ms ] worker_62138: Start wait for client data...
+[ 584 ms ] worker_62138: 1448 bytes were received from client 4
+[ 584 ms ] worker_62138: Start to process client request
+[ 584 ms ] worker_62138: Request is not valid!
+[ 584 ms ] worker_62138: Send response to client
+[ 584 ms ] worker_62138: Start wait for client data...
+[ 585 ms ] worker_62138: 2896 bytes were received from client 4
+[ 585 ms ] worker_62138: Start to process client request
+[ 585 ms ] worker_62138: Request is not valid!
+[ 585 ms ] worker_62138: Send response to client
+[ 585 ms ] worker_62138: Start wait for client data...
+[ 585 ms ] worker_62138: 1448 bytes were received from client 4
+[ 585 ms ] worker_62138: Start to process client request
+[ 585 ms ] worker_62138: Request is not valid!
+[ 585 ms ] worker_62138: Send response to client
+[ 585 ms ] worker_62138: Start wait for client data...
+[ 596 ms ] worker_62138: 1448 bytes were received from client 4
+[ 596 ms ] worker_62138: Start to process client request
+[ 596 ms ] worker_62138: Request is not valid!
+[ 596 ms ] worker_62138: Send response to client
+[ 596 ms ] worker_62138: Start wait for client data...
+[ 596 ms ] worker_62138: 2896 bytes were received from client 4
+[ 596 ms ] worker_62138: Start to process client request
+[ 596 ms ] worker_62138: Request is not valid!
+[ 596 ms ] worker_62138: Send response to client
+[ 596 ms ] worker_62138: Start wait for client data...
+[ 596 ms ] worker_62138: 1448 bytes were received from client 4
+[ 596 ms ] worker_62138: Start to process client request
+[ 596 ms ] worker_62138: Request is not valid!
+[ 596 ms ] worker_62138: Send response to client
+[ 596 ms ] worker_62138: Start wait for client data...
+[ 597 ms ] worker_62138: 1448 bytes were received from client 4
+[ 597 ms ] worker_62138: Start to process client request
+[ 597 ms ] worker_62138: Request is not valid!
+[ 597 ms ] worker_62138: Send response to client
+[ 597 ms ] worker_62138: Start wait for client data...
+[ 597 ms ] worker_62138: 1448 bytes were received from client 4
+[ 597 ms ] worker_62138: Start to process client request
+[ 597 ms ] worker_62138: Request is not valid!
+[ 597 ms ] worker_62138: Send response to client
+[ 597 ms ] worker_62138: Start wait for client data...
+[ 597 ms ] worker_62138: 1448 bytes were received from client 4
+[ 597 ms ] worker_62138: Start to process client request
+[ 597 ms ] worker_62138: Request is not valid!
+[ 597 ms ] worker_62138: Send response to client
+[ 597 ms ] worker_62138: Start wait for client data...
+[ 618 ms ] worker_62138: 1448 bytes were received from client 4
+[ 618 ms ] worker_62138: Start to process client request
+[ 618 ms ] worker_62138: Request is not valid!
+[ 618 ms ] worker_62138: Send response to client
+[ 618 ms ] worker_62138: Start wait for client data...
+[ 621 ms ] worker_62138: 1448 bytes were received from client 4
+[ 621 ms ] worker_62138: Start to process client request
+[ 621 ms ] worker_62138: Request is not valid!
+[ 621 ms ] worker_62138: Send response to client
+[ 621 ms ] worker_62138: Start wait for client data...
+[ 621 ms ] worker_62138: 1448 bytes were received from client 4
+[ 621 ms ] worker_62138: Start to process client request
+[ 621 ms ] worker_62138: Request is not valid!
+[ 621 ms ] worker_62138: Send response to client
+[ 621 ms ] worker_62138: Start wait for client data...
+[ 630 ms ] worker_62138: 1448 bytes were received from client 4
+[ 630 ms ] worker_62138: Start to process client request
+[ 630 ms ] worker_62138: Request is not valid!
+[ 630 ms ] worker_62138: Send response to client
+[ 630 ms ] worker_62138: Start wait for client data...
+[ 637 ms ] worker_62138: 1448 bytes were received from client 4
+[ 637 ms ] worker_62138: Start to process client request
+[ 637 ms ] worker_62138: Request is not valid!
+[ 637 ms ] worker_62138: Send response to client
+[ 637 ms ] worker_62138: Start wait for client data...
+[ 637 ms ] worker_62138: 1448 bytes were received from client 4
+[ 637 ms ] worker_62138: Start to process client request
+[ 637 ms ] worker_62138: Request is not valid!
+[ 637 ms ] worker_62138: Send response to client
+[ 637 ms ] worker_62138: Start wait for client data...
+[ 637 ms ] worker_62138: 1448 bytes were received from client 4
+[ 637 ms ] worker_62138: Start to process client request
+[ 637 ms ] worker_62138: Request is not valid!
+[ 637 ms ] worker_62138: Send response to client
+[ 637 ms ] worker_62138: Start wait for client data...
+[ 637 ms ] worker_62138: 1448 bytes were received from client 4
+[ 637 ms ] worker_62138: Start to process client request
+[ 637 ms ] worker_62138: Request is not valid!
+[ 637 ms ] worker_62138: Send response to client
+[ 638 ms ] worker_62138: Start wait for client data...
+[ 639 ms ] worker_62138: 2896 bytes were received from client 4
+[ 639 ms ] worker_62138: Start to process client request
+[ 639 ms ] worker_62138: Request is not valid!
+[ 639 ms ] worker_62138: Send response to client
+[ 639 ms ] worker_62138: Start wait for client data...
+[ 644 ms ] worker_62138: 2896 bytes were received from client 4
+[ 644 ms ] worker_62138: Start to process client request
+[ 644 ms ] worker_62138: Request is not valid!
+[ 644 ms ] worker_62138: Send response to client
+[ 644 ms ] worker_62138: Start wait for client data...
+[ 644 ms ] worker_62138: 1448 bytes were received from client 4
+[ 644 ms ] worker_62138: Start to process client request
+[ 644 ms ] worker_62138: Request is not valid!
+[ 644 ms ] worker_62138: Send response to client
+[ 644 ms ] worker_62138: Start wait for client data...
+[ 645 ms ] worker_62138: 1448 bytes were received from client 4
+[ 645 ms ] worker_62138: Start to process client request
+[ 645 ms ] worker_62138: Request is not valid!
+[ 645 ms ] worker_62138: Send response to client
+[ 645 ms ] worker_62138: Start wait for client data...
+[ 662 ms ] worker_62138: 1448 bytes were received from client 4
+[ 662 ms ] worker_62138: Start to process client request
+[ 662 ms ] worker_62138: Request is not valid!
+[ 662 ms ] worker_62138: Send response to client
+[ 662 ms ] worker_62138: Start wait for client data...
+[ 662 ms ] worker_62138: 1448 bytes were received from client 4
+[ 663 ms ] worker_62138: Start to process client request
+[ 663 ms ] worker_62138: Request is not valid!
+[ 663 ms ] worker_62138: Send response to client
+[ 663 ms ] worker_62138: Start wait for client data...
+[ 663 ms ] worker_62138: 2896 bytes were received from client 4
+[ 663 ms ] worker_62138: Start to process client request
+[ 663 ms ] worker_62138: Request is not valid!
+[ 663 ms ] worker_62138: Send response to client
+[ 663 ms ] worker_62138: Start wait for client data...
+[ 687 ms ] worker_62138: 1448 bytes were received from client 4
+[ 687 ms ] worker_62138: Start to process client request
+[ 687 ms ] worker_62138: Request is not valid!
+[ 687 ms ] worker_62138: Send response to client
+[ 687 ms ] worker_62138: Start wait for client data...
+[ 687 ms ] worker_62138: 2896 bytes were received from client 4
+[ 687 ms ] worker_62138: Start to process client request
+[ 687 ms ] worker_62138: Request is not valid!
+[ 687 ms ] worker_62138: Send response to client
+[ 687 ms ] worker_62138: Start wait for client data...
+[ 688 ms ] worker_62138: 2896 bytes were received from client 4
+[ 688 ms ] worker_62138: Start to process client request
+[ 688 ms ] worker_62138: Request is not valid!
+[ 688 ms ] worker_62138: Send response to client
+[ 688 ms ] worker_62138: Start wait for client data...
+[ 688 ms ] worker_62138: 1448 bytes were received from client 4
+[ 688 ms ] worker_62138: Start to process client request
+[ 688 ms ] worker_62138: Request is not valid!
+[ 688 ms ] worker_62138: Send response to client
+[ 688 ms ] worker_62138: Start wait for client data...
+[ 688 ms ] worker_62138: 1448 bytes were received from client 4
+[ 688 ms ] worker_62138: Start to process client request
+[ 688 ms ] worker_62138: Request is not valid!
+[ 688 ms ] worker_62138: Send response to client
+[ 688 ms ] worker_62138: Start wait for client data...
+[ 691 ms ] worker_62138: 1448 bytes were received from client 4
+[ 691 ms ] worker_62138: Start to process client request
+[ 691 ms ] worker_62138: Request is not valid!
+[ 691 ms ] worker_62138: Send response to client
+[ 691 ms ] worker_62138: Start wait for client data...
+[ 691 ms ] worker_62138: 1448 bytes were received from client 4
+[ 691 ms ] worker_62138: Start to process client request
+[ 691 ms ] worker_62138: Request is not valid!
+[ 691 ms ] worker_62138: Send response to client
+[ 691 ms ] worker_62138: Start wait for client data...
+[ 691 ms ] worker_62138: 1448 bytes were received from client 4
+[ 691 ms ] worker_62138: Start to process client request
+[ 691 ms ] worker_62138: Request is not valid!
+[ 691 ms ] worker_62138: Send response to client
+[ 691 ms ] worker_62138: Start wait for client data...
+[ 691 ms ] worker_62138: 1448 bytes were received from client 4
+[ 691 ms ] worker_62138: Start to process client request
+[ 691 ms ] worker_62138: Request is not valid!
+[ 691 ms ] worker_62138: Send response to client
+[ 691 ms ] worker_62138: Start wait for client data...
+[ 709 ms ] worker_62138: 2896 bytes were received from client 4
+[ 709 ms ] worker_62138: Start to process client request
+[ 709 ms ] worker_62138: Request is not valid!
+[ 709 ms ] worker_62138: Send response to client
+[ 709 ms ] worker_62138: Start wait for client data...
+[ 709 ms ] worker_62138: 1448 bytes were received from client 4
+[ 709 ms ] worker_62138: Start to process client request
+[ 709 ms ] worker_62138: Request is not valid!
+[ 709 ms ] worker_62138: Send response to client
+[ 709 ms ] worker_62138: Start wait for client data...
+[ 709 ms ] worker_62138: 1448 bytes were received from client 4
+[ 709 ms ] worker_62138: Start to process client request
+[ 709 ms ] worker_62138: Request is not valid!
+[ 709 ms ] worker_62138: Send response to client
+[ 709 ms ] worker_62138: Start wait for client data...
+[ 729 ms ] worker_62138: 1448 bytes were received from client 4
+[ 729 ms ] worker_62138: Start to process client request
+[ 729 ms ] worker_62138: Request is not valid!
+[ 729 ms ] worker_62138: Send response to client
+[ 729 ms ] worker_62138: Start wait for client data...
+[ 729 ms ] worker_62138: 2896 bytes were received from client 4
+[ 729 ms ] worker_62138: Start to process client request
+[ 729 ms ] worker_62138: Request is not valid!
+[ 729 ms ] worker_62138: Send response to client
+[ 729 ms ] worker_62138: Start wait for client data...
+[ 729 ms ] worker_62138: 1448 bytes were received from client 4
+[ 729 ms ] worker_62138: Start to process client request
+[ 729 ms ] worker_62138: Request is not valid!
+[ 729 ms ] worker_62138: Send response to client
+[ 729 ms ] worker_62138: Start wait for client data...
+[ 730 ms ] worker_62138: 2896 bytes were received from client 4
+[ 730 ms ] worker_62138: Start to process client request
+[ 730 ms ] worker_62138: Request is not valid!
+[ 730 ms ] worker_62138: Send response to client
+[ 730 ms ] worker_62138: Start wait for client data...
+[ 730 ms ] worker_62138: 1448 bytes were received from client 4
+[ 730 ms ] worker_62138: Start to process client request
+[ 730 ms ] worker_62138: Request is not valid!
+[ 730 ms ] worker_62138: Send response to client
+[ 730 ms ] worker_62138: Start wait for client data...
+[ 730 ms ] worker_62138: 1448 bytes were received from client 4
+[ 730 ms ] worker_62138: Start to process client request
+[ 730 ms ] worker_62138: Request is not valid!
+[ 730 ms ] worker_62138: Send response to client
+[ 730 ms ] worker_62138: Start wait for client data...
+[ 730 ms ] worker_62138: 1448 bytes were received from client 4
+[ 730 ms ] worker_62138: Start to process client request
+[ 730 ms ] worker_62138: Request is not valid!
+[ 730 ms ] worker_62138: Send response to client
+[ 730 ms ] worker_62138: Start wait for client data...
+[ 732 ms ] worker_62138: 1448 bytes were received from client 4
+[ 732 ms ] worker_62138: Start to process client request
+[ 732 ms ] worker_62138: Request is not valid!
+[ 732 ms ] worker_62138: Send response to client
+[ 732 ms ] worker_62138: Start wait for client data...
+[ 732 ms ] worker_62138: 1448 bytes were received from client 4
+[ 732 ms ] worker_62138: Start to process client request
+[ 732 ms ] worker_62138: Request is not valid!
+[ 732 ms ] worker_62138: Send response to client
+[ 732 ms ] worker_62138: Start wait for client data...
+[ 736 ms ] worker_62138: Error was occurred while receiving data from client
+[ 736 ms ] worker_62138: Exit
+[ 738 ms ] END

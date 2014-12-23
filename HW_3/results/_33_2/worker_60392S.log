@@ -1,0 +1,48 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60392: Hello, I'm new worker!
+[ 0 ms ] worker_60392: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60392: Start wait for client data...
+[ 74 ms ] worker_60392: 1448 bytes were received from client 4
+[ 74 ms ] worker_60392: Start to process client request
+[ 74 ms ] worker_60392: Request is not valid!
+[ 74 ms ] worker_60392: Send response to client
+[ 74 ms ] worker_60392: Start wait for client data...
+[ 74 ms ] worker_60392: 1448 bytes were received from client 4
+[ 74 ms ] worker_60392: Start to process client request
+[ 74 ms ] worker_60392: Request is not valid!
+[ 74 ms ] worker_60392: Send response to client
+[ 74 ms ] worker_60392: Start wait for client data...
+[ 75 ms ] worker_60392: 1448 bytes were received from client 4
+[ 75 ms ] worker_60392: Start to process client request
+[ 75 ms ] worker_60392: Request is not valid!
+[ 75 ms ] worker_60392: Send response to client
+[ 75 ms ] worker_60392: Start wait for client data...
+[ 75 ms ] worker_60392: 1448 bytes were received from client 4
+[ 75 ms ] worker_60392: Start to process client request
+[ 75 ms ] worker_60392: Request is not valid!
+[ 75 ms ] worker_60392: Send response to client
+[ 75 ms ] worker_60392: Start wait for client data...
+[ 76 ms ] worker_60392: 2896 bytes were received from client 4
+[ 76 ms ] worker_60392: Start to process client request
+[ 76 ms ] worker_60392: Request is not valid!
+[ 76 ms ] worker_60392: Send response to client
+[ 76 ms ] worker_60392: Start wait for client data...
+[ 76 ms ] worker_60392: 1448 bytes were received from client 4
+[ 76 ms ] worker_60392: Start to process client request
+[ 76 ms ] worker_60392: Request is not valid!
+[ 76 ms ] worker_60392: Send response to client
+[ 76 ms ] worker_60392: Start wait for client data...
+[ 85 ms ] worker_60392: 1448 bytes were received from client 4
+[ 85 ms ] worker_60392: Start to process client request
+[ 85 ms ] worker_60392: Request is not valid!
+[ 85 ms ] worker_60392: Send response to client
+[ 85 ms ] worker_60392: Start wait for client data...
+[ 85 ms ] worker_60392: 880 bytes were received from client 4
+[ 85 ms ] worker_60392: Start to process client request
+[ 85 ms ] worker_60392: Request is not valid!
+[ 85 ms ] worker_60392: Send response to client
+[ 85 ms ] worker_60392: Start wait for client data...
+[ 129 ms ] worker_60392: Receive 0 bytes. Client closed connection. Goodbye!
+[ 129 ms ] worker_60392: Exit
+[ 129 ms ] END

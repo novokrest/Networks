@@ -1,0 +1,53 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60417: Hello, I'm new worker!
+[ 0 ms ] worker_60417: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60417: Start wait for client data...
+[ 46 ms ] worker_60417: 1448 bytes were received from client 4
+[ 46 ms ] worker_60417: Start to process client request
+[ 46 ms ] worker_60417: Request is not valid!
+[ 46 ms ] worker_60417: Send response to client
+[ 46 ms ] worker_60417: Start wait for client data...
+[ 46 ms ] worker_60417: 1448 bytes were received from client 4
+[ 46 ms ] worker_60417: Start to process client request
+[ 46 ms ] worker_60417: Request is not valid!
+[ 46 ms ] worker_60417: Send response to client
+[ 46 ms ] worker_60417: Start wait for client data...
+[ 46 ms ] worker_60417: 1448 bytes were received from client 4
+[ 47 ms ] worker_60417: Start to process client request
+[ 47 ms ] worker_60417: Request is not valid!
+[ 47 ms ] worker_60417: Send response to client
+[ 47 ms ] worker_60417: Start wait for client data...
+[ 47 ms ] worker_60417: 1448 bytes were received from client 4
+[ 47 ms ] worker_60417: Start to process client request
+[ 47 ms ] worker_60417: Request is not valid!
+[ 47 ms ] worker_60417: Send response to client
+[ 47 ms ] worker_60417: Start wait for client data...
+[ 47 ms ] worker_60417: 1448 bytes were received from client 4
+[ 47 ms ] worker_60417: Start to process client request
+[ 47 ms ] worker_60417: Request is not valid!
+[ 47 ms ] worker_60417: Send response to client
+[ 47 ms ] worker_60417: Start wait for client data...
+[ 47 ms ] worker_60417: 2896 bytes were received from client 4
+[ 47 ms ] worker_60417: Start to process client request
+[ 47 ms ] worker_60417: Request is not valid!
+[ 47 ms ] worker_60417: Send response to client
+[ 47 ms ] worker_60417: Start wait for client data...
+[ 51 ms ] worker_60417: 2896 bytes were received from client 4
+[ 51 ms ] worker_60417: Start to process client request
+[ 51 ms ] worker_60417: Request is not valid!
+[ 51 ms ] worker_60417: Send response to client
+[ 51 ms ] worker_60417: Start wait for client data...
+[ 52 ms ] worker_60417: 1448 bytes were received from client 4
+[ 52 ms ] worker_60417: Start to process client request
+[ 52 ms ] worker_60417: Request is not valid!
+[ 52 ms ] worker_60417: Send response to client
+[ 52 ms ] worker_60417: Start wait for client data...
+[ 215 ms ] worker_60417: 2276 bytes were received from client 4
+[ 215 ms ] worker_60417: Start to process client request
+[ 215 ms ] worker_60417: Request is not valid!
+[ 215 ms ] worker_60417: Send response to client
+[ 215 ms ] worker_60417: Start wait for client data...
+[ 216 ms ] worker_60417: Error was occurred while receiving data from client
+[ 216 ms ] worker_60417: Exit
+[ 216 ms ] END

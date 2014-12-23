@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60823: Hello, I'm new worker!
+[ 0 ms ] worker_60823: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60823: Start wait for client data...
+[ 14 ms ] worker_60823: 1448 bytes were received from client 4
+[ 14 ms ] worker_60823: Start to process client request
+[ 14 ms ] worker_60823: Request is not valid!
+[ 14 ms ] worker_60823: Send response to client
+[ 14 ms ] worker_60823: Start wait for client data...
+[ 14 ms ] worker_60823: 1448 bytes were received from client 4
+[ 15 ms ] worker_60823: Start to process client request
+[ 15 ms ] worker_60823: Request is not valid!
+[ 15 ms ] worker_60823: Send response to client
+[ 15 ms ] worker_60823: Start wait for client data...
+[ 15 ms ] worker_60823: 1448 bytes were received from client 4
+[ 15 ms ] worker_60823: Start to process client request
+[ 15 ms ] worker_60823: Request is not valid!
+[ 15 ms ] worker_60823: Send response to client
+[ 15 ms ] worker_60823: Start wait for client data...
+[ 16 ms ] worker_60823: 2896 bytes were received from client 4
+[ 16 ms ] worker_60823: Start to process client request
+[ 16 ms ] worker_60823: Request is not valid!
+[ 16 ms ] worker_60823: Send response to client
+[ 16 ms ] worker_60823: Start wait for client data...
+[ 17 ms ] worker_60823: 1448 bytes were received from client 4
+[ 17 ms ] worker_60823: Start to process client request
+[ 17 ms ] worker_60823: Request is not valid!
+[ 17 ms ] worker_60823: Send response to client
+[ 17 ms ] worker_60823: Start wait for client data...
+[ 19 ms ] worker_60823: 1448 bytes were received from client 4
+[ 19 ms ] worker_60823: Start to process client request
+[ 19 ms ] worker_60823: Request is not valid!
+[ 19 ms ] worker_60823: Send response to client
+[ 19 ms ] worker_60823: Start wait for client data...
+[ 19 ms ] worker_60823: 874 bytes were received from client 4
+[ 19 ms ] worker_60823: Start to process client request
+[ 19 ms ] worker_60823: Request is not valid!
+[ 19 ms ] worker_60823: Send response to client
+[ 19 ms ] worker_60823: Start wait for client data...
+[ 65 ms ] worker_60823: Receive 0 bytes. Client closed connection. Goodbye!
+[ 65 ms ] worker_60823: Exit
+[ 66 ms ] END

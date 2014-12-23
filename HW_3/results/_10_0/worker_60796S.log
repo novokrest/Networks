@@ -1,0 +1,33 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60796: Hello, I'm new worker!
+[ 0 ms ] worker_60796: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60796: Start wait for client data...
+[ 4 ms ] worker_60796: 1448 bytes were received from client 4
+[ 4 ms ] worker_60796: Start to process client request
+[ 4 ms ] worker_60796: Request is not valid!
+[ 4 ms ] worker_60796: Send response to client
+[ 4 ms ] worker_60796: Start wait for client data...
+[ 4 ms ] worker_60796: 1448 bytes were received from client 4
+[ 4 ms ] worker_60796: Start to process client request
+[ 4 ms ] worker_60796: Request is not valid!
+[ 4 ms ] worker_60796: Send response to client
+[ 4 ms ] worker_60796: Start wait for client data...
+[ 4 ms ] worker_60796: 1448 bytes were received from client 4
+[ 4 ms ] worker_60796: Start to process client request
+[ 4 ms ] worker_60796: Request is not valid!
+[ 4 ms ] worker_60796: Send response to client
+[ 4 ms ] worker_60796: Start wait for client data...
+[ 4 ms ] worker_60796: 1448 bytes were received from client 4
+[ 4 ms ] worker_60796: Start to process client request
+[ 4 ms ] worker_60796: Request is not valid!
+[ 4 ms ] worker_60796: Send response to client
+[ 4 ms ] worker_60796: Start wait for client data...
+[ 4 ms ] worker_60796: 1332 bytes were received from client 4
+[ 4 ms ] worker_60796: Start to process client request
+[ 4 ms ] worker_60796: Request is not valid!
+[ 4 ms ] worker_60796: Send response to client
+[ 4 ms ] worker_60796: Start wait for client data...
+[ 90 ms ] worker_60796: Error was occurred while receiving data from client
+[ 90 ms ] worker_60796: Exit
+[ 90 ms ] END

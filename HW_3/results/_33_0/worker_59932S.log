@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_59932: Hello, I'm new worker!
+[ 0 ms ] worker_59932: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_59932: Start wait for client data...
+[ 31 ms ] worker_59932: 1448 bytes were received from client 4
+[ 31 ms ] worker_59932: Start to process client request
+[ 31 ms ] worker_59932: Request is not valid!
+[ 31 ms ] worker_59932: Send response to client
+[ 31 ms ] worker_59932: Start wait for client data...
+[ 31 ms ] worker_59932: 1448 bytes were received from client 4
+[ 31 ms ] worker_59932: Start to process client request
+[ 31 ms ] worker_59932: Request is not valid!
+[ 31 ms ] worker_59932: Send response to client
+[ 31 ms ] worker_59932: Start wait for client data...
+[ 31 ms ] worker_59932: 1448 bytes were received from client 4
+[ 31 ms ] worker_59932: Start to process client request
+[ 31 ms ] worker_59932: Request is not valid!
+[ 31 ms ] worker_59932: Send response to client
+[ 32 ms ] worker_59932: Start wait for client data...
+[ 32 ms ] worker_59932: 1448 bytes were received from client 4
+[ 32 ms ] worker_59932: Start to process client request
+[ 32 ms ] worker_59932: Request is not valid!
+[ 32 ms ] worker_59932: Send response to client
+[ 32 ms ] worker_59932: Start wait for client data...
+[ 32 ms ] worker_59932: 1448 bytes were received from client 4
+[ 32 ms ] worker_59932: Start to process client request
+[ 32 ms ] worker_59932: Request is not valid!
+[ 32 ms ] worker_59932: Send response to client
+[ 32 ms ] worker_59932: Start wait for client data...
+[ 32 ms ] worker_59932: 1448 bytes were received from client 4
+[ 32 ms ] worker_59932: Start to process client request
+[ 32 ms ] worker_59932: Request is not valid!
+[ 32 ms ] worker_59932: Send response to client
+[ 32 ms ] worker_59932: Start wait for client data...
+[ 32 ms ] worker_59932: 1310 bytes were received from client 4
+[ 32 ms ] worker_59932: Start to process client request
+[ 32 ms ] worker_59932: Request is not valid!
+[ 32 ms ] worker_59932: Send response to client
+[ 32 ms ] worker_59932: Start wait for client data...
+[ 109 ms ] worker_59932: Error was occurred while receiving data from client
+[ 109 ms ] worker_59932: Exit
+[ 110 ms ] END

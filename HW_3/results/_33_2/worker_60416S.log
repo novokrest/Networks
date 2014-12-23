@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60416: Hello, I'm new worker!
+[ 0 ms ] worker_60416: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60416: Start wait for client data...
+[ 78 ms ] worker_60416: 2896 bytes were received from client 4
+[ 79 ms ] worker_60416: Start to process client request
+[ 79 ms ] worker_60416: Request is not valid!
+[ 79 ms ] worker_60416: Send response to client
+[ 79 ms ] worker_60416: Start wait for client data...
+[ 79 ms ] worker_60416: 1448 bytes were received from client 4
+[ 79 ms ] worker_60416: Start to process client request
+[ 79 ms ] worker_60416: Request is not valid!
+[ 79 ms ] worker_60416: Send response to client
+[ 79 ms ] worker_60416: Start wait for client data...
+[ 80 ms ] worker_60416: 2896 bytes were received from client 4
+[ 80 ms ] worker_60416: Start to process client request
+[ 80 ms ] worker_60416: Request is not valid!
+[ 80 ms ] worker_60416: Send response to client
+[ 80 ms ] worker_60416: Start wait for client data...
+[ 80 ms ] worker_60416: 1448 bytes were received from client 4
+[ 80 ms ] worker_60416: Start to process client request
+[ 80 ms ] worker_60416: Request is not valid!
+[ 80 ms ] worker_60416: Send response to client
+[ 80 ms ] worker_60416: Start wait for client data...
+[ 80 ms ] worker_60416: 1448 bytes were received from client 4
+[ 80 ms ] worker_60416: Start to process client request
+[ 80 ms ] worker_60416: Request is not valid!
+[ 80 ms ] worker_60416: Send response to client
+[ 80 ms ] worker_60416: Start wait for client data...
+[ 80 ms ] worker_60416: 1448 bytes were received from client 4
+[ 80 ms ] worker_60416: Start to process client request
+[ 80 ms ] worker_60416: Request is not valid!
+[ 80 ms ] worker_60416: Send response to client
+[ 80 ms ] worker_60416: Start wait for client data...
+[ 80 ms ] worker_60416: 1054 bytes were received from client 4
+[ 80 ms ] worker_60416: Start to process client request
+[ 80 ms ] worker_60416: Request is not valid!
+[ 80 ms ] worker_60416: Send response to client
+[ 80 ms ] worker_60416: Start wait for client data...
+[ 109 ms ] worker_60416: Receive 0 bytes. Client closed connection. Goodbye!
+[ 109 ms ] worker_60416: Exit
+[ 109 ms ] END

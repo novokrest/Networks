@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60421: Hello, I'm new worker!
+[ 0 ms ] worker_60421: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60421: Start wait for client data...
+[ 0 ms ] worker_60421: 2896 bytes were received from client 4
+[ 0 ms ] worker_60421: Start to process client request
+[ 0 ms ] worker_60421: Request is not valid!
+[ 0 ms ] worker_60421: Send response to client
+[ 0 ms ] worker_60421: Start wait for client data...
+[ 1 ms ] worker_60421: 1448 bytes were received from client 4
+[ 1 ms ] worker_60421: Start to process client request
+[ 1 ms ] worker_60421: Request is not valid!
+[ 1 ms ] worker_60421: Send response to client
+[ 1 ms ] worker_60421: Start wait for client data...
+[ 30 ms ] worker_60421: 2896 bytes were received from client 4
+[ 30 ms ] worker_60421: Start to process client request
+[ 30 ms ] worker_60421: Request is not valid!
+[ 30 ms ] worker_60421: Send response to client
+[ 30 ms ] worker_60421: Start wait for client data...
+[ 30 ms ] worker_60421: 1448 bytes were received from client 4
+[ 30 ms ] worker_60421: Start to process client request
+[ 30 ms ] worker_60421: Request is not valid!
+[ 30 ms ] worker_60421: Send response to client
+[ 30 ms ] worker_60421: Start wait for client data...
+[ 30 ms ] worker_60421: 1448 bytes were received from client 4
+[ 30 ms ] worker_60421: Start to process client request
+[ 30 ms ] worker_60421: Request is not valid!
+[ 30 ms ] worker_60421: Send response to client
+[ 30 ms ] worker_60421: Start wait for client data...
+[ 31 ms ] worker_60421: 2896 bytes were received from client 4
+[ 31 ms ] worker_60421: Start to process client request
+[ 31 ms ] worker_60421: Request is not valid!
+[ 31 ms ] worker_60421: Send response to client
+[ 31 ms ] worker_60421: Start wait for client data...
+[ 37 ms ] worker_60421: 1438 bytes were received from client 4
+[ 37 ms ] worker_60421: Start to process client request
+[ 37 ms ] worker_60421: Request is not valid!
+[ 37 ms ] worker_60421: Send response to client
+[ 37 ms ] worker_60421: Start wait for client data...
+[ 203 ms ] worker_60421: Receive 0 bytes. Client closed connection. Goodbye!
+[ 203 ms ] worker_60421: Exit
+[ 204 ms ] END

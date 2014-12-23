@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60169: Hello, I'm new worker!
+[ 0 ms ] worker_60169: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60169: Start wait for client data...
+[ 26 ms ] worker_60169: 1448 bytes were received from client 4
+[ 26 ms ] worker_60169: Start to process client request
+[ 26 ms ] worker_60169: Request is not valid!
+[ 26 ms ] worker_60169: Send response to client
+[ 26 ms ] worker_60169: Start wait for client data...
+[ 26 ms ] worker_60169: 1448 bytes were received from client 4
+[ 26 ms ] worker_60169: Start to process client request
+[ 26 ms ] worker_60169: Request is not valid!
+[ 26 ms ] worker_60169: Send response to client
+[ 26 ms ] worker_60169: Start wait for client data...
+[ 26 ms ] worker_60169: 1448 bytes were received from client 4
+[ 26 ms ] worker_60169: Start to process client request
+[ 26 ms ] worker_60169: Request is not valid!
+[ 26 ms ] worker_60169: Send response to client
+[ 26 ms ] worker_60169: Start wait for client data...
+[ 30 ms ] worker_60169: 1448 bytes were received from client 4
+[ 30 ms ] worker_60169: Start to process client request
+[ 30 ms ] worker_60169: Request is not valid!
+[ 30 ms ] worker_60169: Send response to client
+[ 30 ms ] worker_60169: Start wait for client data...
+[ 30 ms ] worker_60169: 1448 bytes were received from client 4
+[ 30 ms ] worker_60169: Start to process client request
+[ 30 ms ] worker_60169: Request is not valid!
+[ 30 ms ] worker_60169: Send response to client
+[ 30 ms ] worker_60169: Start wait for client data...
+[ 30 ms ] worker_60169: 2896 bytes were received from client 4
+[ 30 ms ] worker_60169: Start to process client request
+[ 30 ms ] worker_60169: Request is not valid!
+[ 30 ms ] worker_60169: Send response to client
+[ 30 ms ] worker_60169: Start wait for client data...
+[ 30 ms ] worker_60169: 1812 bytes were received from client 4
+[ 30 ms ] worker_60169: Start to process client request
+[ 30 ms ] worker_60169: Request is not valid!
+[ 30 ms ] worker_60169: Send response to client
+[ 30 ms ] worker_60169: Start wait for client data...
+[ 61 ms ] worker_60169: Error was occurred while receiving data from client
+[ 61 ms ] worker_60169: Exit
+[ 62 ms ] END

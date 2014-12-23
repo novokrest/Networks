@@ -1,0 +1,78 @@
+[ 0 ms ] START
+[ 0 ms ] worker_62388: Hello, I'm new worker!
+[ 0 ms ] worker_62388: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 54 ms ] worker_62388: 1448 bytes were received from client 4
+[ 54 ms ] worker_62388: Start to process client request
+[ 54 ms ] worker_62388: Request is not valid!
+[ 54 ms ] worker_62388: Send response to client
+[ 54 ms ] worker_62388: Start wait for client data...
+[ 55 ms ] worker_62388: 1448 bytes were received from client 4
+[ 55 ms ] worker_62388: Start to process client request
+[ 55 ms ] worker_62388: Request is not valid!
+[ 55 ms ] worker_62388: Send response to client
+[ 55 ms ] worker_62388: Start wait for client data...
+[ 131 ms ] worker_62388: 1448 bytes were received from client 4
+[ 131 ms ] worker_62388: Start to process client request
+[ 132 ms ] worker_62388: Request is not valid!
+[ 132 ms ] worker_62388: Send response to client
+[ 132 ms ] worker_62388: Start wait for client data...
+[ 132 ms ] worker_62388: 1448 bytes were received from client 4
+[ 132 ms ] worker_62388: Start to process client request
+[ 132 ms ] worker_62388: Request is not valid!
+[ 132 ms ] worker_62388: Send response to client
+[ 132 ms ] worker_62388: Start wait for client data...
+[ 132 ms ] worker_62388: 1448 bytes were received from client 4
+[ 132 ms ] worker_62388: Start to process client request
+[ 132 ms ] worker_62388: Request is not valid!
+[ 132 ms ] worker_62388: Send response to client
+[ 132 ms ] worker_62388: Start wait for client data...
+[ 135 ms ] worker_62388: 1184 bytes were received from client 4
+[ 135 ms ] worker_62388: Start to process client request
+[ 135 ms ] worker_62388: Request is not valid!
+[ 135 ms ] worker_62388: Send response to client
+[ 135 ms ] worker_62388: Start wait for client data...
+[ 177 ms ] worker_62388: Error was occurred while receiving data from client
+[ 177 ms ] worker_62388: Exit
+[ 178 ms ] END

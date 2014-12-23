@@ -1,0 +1,78 @@
+[ 0 ms ] START
+[ 0 ms ] worker_62417: Hello, I'm new worker!
+[ 0 ms ] worker_62417: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_62417: Start wait for client data...
+[ 8 ms ] worker_62417: 1448 bytes were received from client 4
+[ 8 ms ] worker_62417: Start to process client request
+[ 8 ms ] worker_62417: Request is not valid!
+[ 8 ms ] worker_62417: Send response to client
+[ 8 ms ] worker_62417: Start wait for client data...
+[ 8 ms ] worker_62417: 1448 bytes were received from client 4
+[ 8 ms ] worker_62417: Start to process client request
+[ 8 ms ] worker_62417: Request is not valid!
+[ 8 ms ] worker_62417: Send response to client
+[ 8 ms ] worker_62417: Start wait for client data...
+[ 8 ms ] worker_62417: 1448 bytes were received from client 4
+[ 8 ms ] worker_62417: Start to process client request
+[ 8 ms ] worker_62417: Request is not valid!
+[ 8 ms ] worker_62417: Send response to client
+[ 8 ms ] worker_62417: Start wait for client data...
+[ 10 ms ] worker_62417: 1448 bytes were received from client 4
+[ 10 ms ] worker_62417: Start to process client request
+[ 10 ms ] worker_62417: Request is not valid!
+[ 10 ms ] worker_62417: Send response to client
+[ 10 ms ] worker_62417: Start wait for client data...
+[ 10 ms ] worker_62417: 1448 bytes were received from client 4
+[ 10 ms ] worker_62417: Start to process client request
+[ 10 ms ] worker_62417: Request is not valid!
+[ 10 ms ] worker_62417: Send response to client
+[ 10 ms ] worker_62417: Start wait for client data...
+[ 10 ms ] worker_62417: 1448 bytes were received from client 4
+[ 10 ms ] worker_62417: Start to process client request
+[ 10 ms ] worker_62417: Request is not valid!
+[ 10 ms ] worker_62417: Send response to client
+[ 10 ms ] worker_62417: Start wait for client data...
+[ 11 ms ] worker_62417: 1448 bytes were received from client 4
+[ 11 ms ] worker_62417: Start to process client request
+[ 11 ms ] worker_62417: Request is not valid!
+[ 11 ms ] worker_62417: Send response to client
+[ 11 ms ] worker_62417: Start wait for client data...
+[ 12 ms ] worker_62417: 1448 bytes were received from client 4
+[ 12 ms ] worker_62417: Start to process client request
+[ 12 ms ] worker_62417: Request is not valid!
+[ 12 ms ] worker_62417: Send response to client
+[ 12 ms ] worker_62417: Start wait for client data...
+[ 12 ms ] worker_62417: 1448 bytes were received from client 4
+[ 12 ms ] worker_62417: Start to process client request
+[ 12 ms ] worker_62417: Request is not valid!
+[ 12 ms ] worker_62417: Send response to client
+[ 12 ms ] worker_62417: Start wait for client data...
+[ 13 ms ] worker_62417: 1448 bytes were received from client 4
+[ 13 ms ] worker_62417: Start to process client request
+[ 13 ms ] worker_62417: Request is not valid!
+[ 13 ms ] worker_62417: Send response to client
+[ 13 ms ] worker_62417: Start wait for client data...
+[ 229 ms ] worker_62417: 1448 bytes were received from client 4
+[ 229 ms ] worker_62417: Start to process client request
+[ 229 ms ] worker_62417: Request is not valid!
+[ 229 ms ] worker_62417: Send response to client
+[ 229 ms ] worker_62417: Start wait for client data...
+[ 230 ms ] worker_62417: 1448 bytes were received from client 4
+[ 230 ms ] worker_62417: Start to process client request
+[ 230 ms ] worker_62417: Request is not valid!
+[ 230 ms ] worker_62417: Send response to client
+[ 230 ms ] worker_62417: Start wait for client data...
+[ 232 ms ] worker_62417: 1448 bytes were received from client 4
+[ 232 ms ] worker_62417: Start to process client request
+[ 232 ms ] worker_62417: Request is not valid!
+[ 232 ms ] worker_62417: Send response to client
+[ 232 ms ] worker_62417: Start wait for client data...
+[ 233 ms ] worker_62417: 1184 bytes were received from client 4
+[ 233 ms ] worker_62417: Start to process client request
+[ 233 ms ] worker_62417: Request is not valid!
+[ 233 ms ] worker_62417: Send response to client
+[ 233 ms ] worker_62417: Start wait for client data...
+[ 237 ms ] worker_62417: Receive 0 bytes. Client closed connection. Goodbye!
+[ 237 ms ] worker_62417: Exit
+[ 238 ms ] END

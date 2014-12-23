@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_59945: Hello, I'm new worker!
+[ 0 ms ] worker_59945: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_59945: Start wait for client data...
+[ 10 ms ] worker_59945: 1448 bytes were received from client 4
+[ 10 ms ] worker_59945: Start to process client request
+[ 10 ms ] worker_59945: Request is not valid!
+[ 10 ms ] worker_59945: Send response to client
+[ 10 ms ] worker_59945: Start wait for client data...
+[ 11 ms ] worker_59945: 2896 bytes were received from client 4
+[ 11 ms ] worker_59945: Start to process client request
+[ 11 ms ] worker_59945: Request is not valid!
+[ 11 ms ] worker_59945: Send response to client
+[ 11 ms ] worker_59945: Start wait for client data...
+[ 12 ms ] worker_59945: 1448 bytes were received from client 4
+[ 12 ms ] worker_59945: Start to process client request
+[ 12 ms ] worker_59945: Request is not valid!
+[ 12 ms ] worker_59945: Send response to client
+[ 12 ms ] worker_59945: Start wait for client data...
+[ 12 ms ] worker_59945: 1448 bytes were received from client 4
+[ 12 ms ] worker_59945: Start to process client request
+[ 12 ms ] worker_59945: Request is not valid!
+[ 12 ms ] worker_59945: Send response to client
+[ 12 ms ] worker_59945: Start wait for client data...
+[ 12 ms ] worker_59945: 1448 bytes were received from client 4
+[ 12 ms ] worker_59945: Start to process client request
+[ 12 ms ] worker_59945: Request is not valid!
+[ 12 ms ] worker_59945: Send response to client
+[ 12 ms ] worker_59945: Start wait for client data...
+[ 12 ms ] worker_59945: 1448 bytes were received from client 4
+[ 12 ms ] worker_59945: Start to process client request
+[ 12 ms ] worker_59945: Request is not valid!
+[ 12 ms ] worker_59945: Send response to client
+[ 12 ms ] worker_59945: Start wait for client data...
+[ 12 ms ] worker_59945: 2892 bytes were received from client 4
+[ 12 ms ] worker_59945: Start to process client request
+[ 12 ms ] worker_59945: Request is not valid!
+[ 12 ms ] worker_59945: Send response to client
+[ 12 ms ] worker_59945: Start wait for client data...
+[ 97 ms ] worker_59945: Error was occurred while receiving data from client
+[ 97 ms ] worker_59945: Exit
+[ 98 ms ] END

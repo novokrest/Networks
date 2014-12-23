@@ -1,0 +1,53 @@
+[ 0 ms ] START
+[ 0 ms ] worker_62398: Hello, I'm new worker!
+[ 0 ms ] worker_62398: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_62398: Start wait for client data...
+[ 194 ms ] worker_62398: 1448 bytes were received from client 4
+[ 194 ms ] worker_62398: Start to process client request
+[ 194 ms ] worker_62398: Request is not valid!
+[ 194 ms ] worker_62398: Send response to client
+[ 194 ms ] worker_62398: Start wait for client data...
+[ 195 ms ] worker_62398: 1448 bytes were received from client 4
+[ 195 ms ] worker_62398: Start to process client request
+[ 195 ms ] worker_62398: Request is not valid!
+[ 195 ms ] worker_62398: Send response to client
+[ 195 ms ] worker_62398: Start wait for client data...
+[ 195 ms ] worker_62398: 2896 bytes were received from client 4
+[ 195 ms ] worker_62398: Start to process client request
+[ 195 ms ] worker_62398: Request is not valid!
+[ 195 ms ] worker_62398: Send response to client
+[ 195 ms ] worker_62398: Start wait for client data...
+[ 195 ms ] worker_62398: 1448 bytes were received from client 4
+[ 195 ms ] worker_62398: Start to process client request
+[ 195 ms ] worker_62398: Request is not valid!
+[ 195 ms ] worker_62398: Send response to client
+[ 195 ms ] worker_62398: Start wait for client data...
+[ 195 ms ] worker_62398: 1448 bytes were received from client 4
+[ 195 ms ] worker_62398: Start to process client request
+[ 195 ms ] worker_62398: Request is not valid!
+[ 196 ms ] worker_62398: Send response to client
+[ 196 ms ] worker_62398: Start wait for client data...
+[ 196 ms ] worker_62398: 2896 bytes were received from client 4
+[ 196 ms ] worker_62398: Start to process client request
+[ 196 ms ] worker_62398: Request is not valid!
+[ 196 ms ] worker_62398: Send response to client
+[ 196 ms ] worker_62398: Start wait for client data...
+[ 198 ms ] worker_62398: 1448 bytes were received from client 4
+[ 198 ms ] worker_62398: Start to process client request
+[ 198 ms ] worker_62398: Request is not valid!
+[ 199 ms ] worker_62398: Send response to client
+[ 199 ms ] worker_62398: Start wait for client data...
+[ 216 ms ] worker_62398: 1448 bytes were received from client 4
+[ 216 ms ] worker_62398: Start to process client request
+[ 216 ms ] worker_62398: Request is not valid!
+[ 216 ms ] worker_62398: Send response to client
+[ 216 ms ] worker_62398: Start wait for client data...
+[ 338 ms ] worker_62398: 1448 bytes were received from client 4
+[ 338 ms ] worker_62398: Start to process client request
+[ 338 ms ] worker_62398: Request is not valid!
+[ 338 ms ] worker_62398: Send response to client
+[ 338 ms ] worker_62398: Start wait for client data...
+[ 375 ms ] worker_62398: Error was occurred while receiving data from client
+[ 375 ms ] worker_62398: Exit
+[ 376 ms ] END

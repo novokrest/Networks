@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60209: Hello, I'm new worker!
+[ 0 ms ] worker_60209: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60209: Start wait for client data...
+[ 2081 ms ] worker_60209: 1448 bytes were received from client 4
+[ 2081 ms ] worker_60209: Start to process client request
+[ 2081 ms ] worker_60209: Request is not valid!
+[ 2081 ms ] worker_60209: Send response to client
+[ 2081 ms ] worker_60209: Start wait for client data...
+[ 2081 ms ] worker_60209: 2896 bytes were received from client 4
+[ 2081 ms ] worker_60209: Start to process client request
+[ 2081 ms ] worker_60209: Request is not valid!
+[ 2081 ms ] worker_60209: Send response to client
+[ 2081 ms ] worker_60209: Start wait for client data...
+[ 2081 ms ] worker_60209: 2896 bytes were received from client 4
+[ 2081 ms ] worker_60209: Start to process client request
+[ 2081 ms ] worker_60209: Request is not valid!
+[ 2081 ms ] worker_60209: Send response to client
+[ 2081 ms ] worker_60209: Start wait for client data...
+[ 2081 ms ] worker_60209: 1448 bytes were received from client 4
+[ 2081 ms ] worker_60209: Start to process client request
+[ 2081 ms ] worker_60209: Request is not valid!
+[ 2081 ms ] worker_60209: Send response to client
+[ 2081 ms ] worker_60209: Start wait for client data...
+[ 2084 ms ] worker_60209: 1448 bytes were received from client 4
+[ 2084 ms ] worker_60209: Start to process client request
+[ 2084 ms ] worker_60209: Request is not valid!
+[ 2084 ms ] worker_60209: Send response to client
+[ 2084 ms ] worker_60209: Start wait for client data...
+[ 2086 ms ] worker_60209: 1448 bytes were received from client 4
+[ 2086 ms ] worker_60209: Start to process client request
+[ 2086 ms ] worker_60209: Request is not valid!
+[ 2086 ms ] worker_60209: Send response to client
+[ 2086 ms ] worker_60209: Start wait for client data...
+[ 2086 ms ] worker_60209: 2896 bytes were received from client 4
+[ 2086 ms ] worker_60209: Start to process client request
+[ 2086 ms ] worker_60209: Request is not valid!
+[ 2086 ms ] worker_60209: Send response to client
+[ 2086 ms ] worker_60209: Start wait for client data...
+[ 2207 ms ] worker_60209: Error was occurred while receiving data from client
+[ 2207 ms ] worker_60209: Exit
+[ 2207 ms ] END

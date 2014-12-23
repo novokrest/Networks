@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_59937: Hello, I'm new worker!
+[ 0 ms ] worker_59937: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_59937: Start wait for client data...
+[ 1 ms ] worker_59937: 1448 bytes were received from client 4
+[ 1 ms ] worker_59937: Start to process client request
+[ 1 ms ] worker_59937: Request is not valid!
+[ 1 ms ] worker_59937: Send response to client
+[ 1 ms ] worker_59937: Start wait for client data...
+[ 1 ms ] worker_59937: 2896 bytes were received from client 4
+[ 1 ms ] worker_59937: Start to process client request
+[ 1 ms ] worker_59937: Request is not valid!
+[ 1 ms ] worker_59937: Send response to client
+[ 1 ms ] worker_59937: Start wait for client data...
+[ 1 ms ] worker_59937: 1448 bytes were received from client 4
+[ 1 ms ] worker_59937: Start to process client request
+[ 1 ms ] worker_59937: Request is not valid!
+[ 1 ms ] worker_59937: Send response to client
+[ 1 ms ] worker_59937: Start wait for client data...
+[ 1 ms ] worker_59937: 1448 bytes were received from client 4
+[ 2 ms ] worker_59937: Start to process client request
+[ 2 ms ] worker_59937: Request is not valid!
+[ 2 ms ] worker_59937: Send response to client
+[ 2 ms ] worker_59937: Start wait for client data...
+[ 2 ms ] worker_59937: 1448 bytes were received from client 4
+[ 2 ms ] worker_59937: Start to process client request
+[ 2 ms ] worker_59937: Request is not valid!
+[ 2 ms ] worker_59937: Send response to client
+[ 2 ms ] worker_59937: Start wait for client data...
+[ 2 ms ] worker_59937: 1448 bytes were received from client 4
+[ 2 ms ] worker_59937: Start to process client request
+[ 2 ms ] worker_59937: Request is not valid!
+[ 2 ms ] worker_59937: Send response to client
+[ 2 ms ] worker_59937: Start wait for client data...
+[ 2 ms ] worker_59937: 68 bytes were received from client 4
+[ 2 ms ] worker_59937: Start to process client request
+[ 2 ms ] worker_59937: Request is not valid!
+[ 2 ms ] worker_59937: Send response to client
+[ 2 ms ] worker_59937: Start wait for client data...
+[ 103 ms ] worker_59937: Error was occurred while receiving data from client
+[ 104 ms ] worker_59937: Exit
+[ 104 ms ] END

@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60824: Hello, I'm new worker!
+[ 0 ms ] worker_60824: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60824: Start wait for client data...
+[ 34 ms ] worker_60824: 1448 bytes were received from client 4
+[ 34 ms ] worker_60824: Start to process client request
+[ 34 ms ] worker_60824: Request is not valid!
+[ 34 ms ] worker_60824: Send response to client
+[ 34 ms ] worker_60824: Start wait for client data...
+[ 36 ms ] worker_60824: 1448 bytes were received from client 4
+[ 36 ms ] worker_60824: Start to process client request
+[ 36 ms ] worker_60824: Request is not valid!
+[ 36 ms ] worker_60824: Send response to client
+[ 36 ms ] worker_60824: Start wait for client data...
+[ 36 ms ] worker_60824: 1448 bytes were received from client 4
+[ 36 ms ] worker_60824: Start to process client request
+[ 36 ms ] worker_60824: Request is not valid!
+[ 36 ms ] worker_60824: Send response to client
+[ 36 ms ] worker_60824: Start wait for client data...
+[ 37 ms ] worker_60824: 1448 bytes were received from client 4
+[ 37 ms ] worker_60824: Start to process client request
+[ 37 ms ] worker_60824: Request is not valid!
+[ 37 ms ] worker_60824: Send response to client
+[ 37 ms ] worker_60824: Start wait for client data...
+[ 39 ms ] worker_60824: 1448 bytes were received from client 4
+[ 39 ms ] worker_60824: Start to process client request
+[ 39 ms ] worker_60824: Request is not valid!
+[ 39 ms ] worker_60824: Send response to client
+[ 39 ms ] worker_60824: Start wait for client data...
+[ 39 ms ] worker_60824: 1448 bytes were received from client 4
+[ 39 ms ] worker_60824: Start to process client request
+[ 39 ms ] worker_60824: Request is not valid!
+[ 39 ms ] worker_60824: Send response to client
+[ 39 ms ] worker_60824: Start wait for client data...
+[ 41 ms ] worker_60824: 2322 bytes were received from client 4
+[ 41 ms ] worker_60824: Start to process client request
+[ 41 ms ] worker_60824: Request is not valid!
+[ 41 ms ] worker_60824: Send response to client
+[ 41 ms ] worker_60824: Start wait for client data...
+[ 71 ms ] worker_60824: Receive 0 bytes. Client closed connection. Goodbye!
+[ 71 ms ] worker_60824: Exit
+[ 72 ms ] END

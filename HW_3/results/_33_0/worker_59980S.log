@@ -1,0 +1,58 @@
+[ 0 ms ] START
+[ 0 ms ] worker_59980: Hello, I'm new worker!
+[ 0 ms ] worker_59980: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_59980: Start wait for client data...
+[ 11 ms ] worker_59980: 1448 bytes were received from client 4
+[ 11 ms ] worker_59980: Start to process client request
+[ 11 ms ] worker_59980: Request is not valid!
+[ 11 ms ] worker_59980: Send response to client
+[ 11 ms ] worker_59980: Start wait for client data...
+[ 11 ms ] worker_59980: 1448 bytes were received from client 4
+[ 11 ms ] worker_59980: Start to process client request
+[ 11 ms ] worker_59980: Request is not valid!
+[ 11 ms ] worker_59980: Send response to client
+[ 11 ms ] worker_59980: Start wait for client data...
+[ 11 ms ] worker_59980: 1448 bytes were received from client 4
+[ 11 ms ] worker_59980: Start to process client request
+[ 11 ms ] worker_59980: Request is not valid!
+[ 11 ms ] worker_59980: Send response to client
+[ 11 ms ] worker_59980: Start wait for client data...
+[ 11 ms ] worker_59980: 2896 bytes were received from client 4
+[ 11 ms ] worker_59980: Start to process client request
+[ 11 ms ] worker_59980: Request is not valid!
+[ 11 ms ] worker_59980: Send response to client
+[ 11 ms ] worker_59980: Start wait for client data...
+[ 12 ms ] worker_59980: 2896 bytes were received from client 4
+[ 12 ms ] worker_59980: Start to process client request
+[ 12 ms ] worker_59980: Request is not valid!
+[ 12 ms ] worker_59980: Send response to client
+[ 12 ms ] worker_59980: Start wait for client data...
+[ 12 ms ] worker_59980: 2896 bytes were received from client 4
+[ 12 ms ] worker_59980: Start to process client request
+[ 12 ms ] worker_59980: Request is not valid!
+[ 12 ms ] worker_59980: Send response to client
+[ 12 ms ] worker_59980: Start wait for client data...
+[ 12 ms ] worker_59980: 1448 bytes were received from client 4
+[ 12 ms ] worker_59980: Start to process client request
+[ 12 ms ] worker_59980: Request is not valid!
+[ 12 ms ] worker_59980: Send response to client
+[ 12 ms ] worker_59980: Start wait for client data...
+[ 54 ms ] worker_59980: 1448 bytes were received from client 4
+[ 54 ms ] worker_59980: Start to process client request
+[ 54 ms ] worker_59980: Request is not valid!
+[ 54 ms ] worker_59980: Send response to client
+[ 54 ms ] worker_59980: Start wait for client data...
+[ 54 ms ] worker_59980: 2896 bytes were received from client 4
+[ 54 ms ] worker_59980: Start to process client request
+[ 54 ms ] worker_59980: Request is not valid!
+[ 54 ms ] worker_59980: Send response to client
+[ 54 ms ] worker_59980: Start wait for client data...
+[ 54 ms ] worker_59980: 740 bytes were received from client 4
+[ 54 ms ] worker_59980: Start to process client request
+[ 54 ms ] worker_59980: Request is not valid!
+[ 54 ms ] worker_59980: Send response to client
+[ 54 ms ] worker_59980: Start wait for client data...
+[ 56 ms ] worker_59980: Receive 0 bytes. Client closed connection. Goodbye!
+[ 56 ms ] worker_59980: Exit
+[ 56 ms ] END

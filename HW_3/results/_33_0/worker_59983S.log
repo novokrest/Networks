@@ -1,0 +1,48 @@
+[ 0 ms ] START
+[ 0 ms ] worker_59983: Hello, I'm new worker!
+[ 0 ms ] worker_59983: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_59983: Start wait for client data...
+[ 36 ms ] worker_59983: 2896 bytes were received from client 4
+[ 36 ms ] worker_59983: Start to process client request
+[ 36 ms ] worker_59983: Request is not valid!
+[ 36 ms ] worker_59983: Send response to client
+[ 36 ms ] worker_59983: Start wait for client data...
+[ 37 ms ] worker_59983: 2896 bytes were received from client 4
+[ 37 ms ] worker_59983: Start to process client request
+[ 37 ms ] worker_59983: Request is not valid!
+[ 37 ms ] worker_59983: Send response to client
+[ 37 ms ] worker_59983: Start wait for client data...
+[ 38 ms ] worker_59983: 1448 bytes were received from client 4
+[ 38 ms ] worker_59983: Start to process client request
+[ 38 ms ] worker_59983: Request is not valid!
+[ 38 ms ] worker_59983: Send response to client
+[ 38 ms ] worker_59983: Start wait for client data...
+[ 39 ms ] worker_59983: 2896 bytes were received from client 4
+[ 39 ms ] worker_59983: Start to process client request
+[ 39 ms ] worker_59983: Request is not valid!
+[ 39 ms ] worker_59983: Send response to client
+[ 39 ms ] worker_59983: Start wait for client data...
+[ 40 ms ] worker_59983: 2896 bytes were received from client 4
+[ 40 ms ] worker_59983: Start to process client request
+[ 40 ms ] worker_59983: Request is not valid!
+[ 40 ms ] worker_59983: Send response to client
+[ 40 ms ] worker_59983: Start wait for client data...
+[ 40 ms ] worker_59983: 1448 bytes were received from client 4
+[ 40 ms ] worker_59983: Start to process client request
+[ 40 ms ] worker_59983: Request is not valid!
+[ 40 ms ] worker_59983: Send response to client
+[ 40 ms ] worker_59983: Start wait for client data...
+[ 73 ms ] worker_59983: 1448 bytes were received from client 4
+[ 73 ms ] worker_59983: Start to process client request
+[ 73 ms ] worker_59983: Request is not valid!
+[ 73 ms ] worker_59983: Send response to client
+[ 73 ms ] worker_59983: Start wait for client data...
+[ 117 ms ] worker_59983: 556 bytes were received from client 4
+[ 117 ms ] worker_59983: Start to process client request
+[ 117 ms ] worker_59983: Request is not valid!
+[ 117 ms ] worker_59983: Send response to client
+[ 117 ms ] worker_59983: Start wait for client data...
+[ 118 ms ] worker_59983: Receive 0 bytes. Client closed connection. Goodbye!
+[ 118 ms ] worker_59983: Exit
+[ 118 ms ] END

@@ -1,0 +1,23 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60218: Hello, I'm new worker!
+[ 0 ms ] worker_60218: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60218: Start wait for client data...
+[ 18 ms ] worker_60218: 1448 bytes were received from client 4
+[ 18 ms ] worker_60218: Start to process client request
+[ 18 ms ] worker_60218: Request is not valid!
+[ 18 ms ] worker_60218: Send response to client
+[ 18 ms ] worker_60218: Start wait for client data...
+[ 150 ms ] worker_60218: 1448 bytes were received from client 4
+[ 150 ms ] worker_60218: Start to process client request
+[ 150 ms ] worker_60218: Request is not valid!
+[ 150 ms ] worker_60218: Send response to client
+[ 150 ms ] worker_60218: Start wait for client data...
+[ 162 ms ] worker_60218: 1382 bytes were received from client 4
+[ 162 ms ] worker_60218: Start to process client request
+[ 162 ms ] worker_60218: Request is not valid!
+[ 162 ms ] worker_60218: Send response to client
+[ 162 ms ] worker_60218: Start wait for client data...
+[ 162 ms ] worker_60218: Receive 0 bytes. Client closed connection. Goodbye!
+[ 162 ms ] worker_60218: Exit
+[ 162 ms ] END

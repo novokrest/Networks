@@ -1,0 +1,53 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60376: Hello, I'm new worker!
+[ 0 ms ] worker_60376: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60376: Start wait for client data...
+[ 76 ms ] worker_60376: 1448 bytes were received from client 4
+[ 76 ms ] worker_60376: Start to process client request
+[ 76 ms ] worker_60376: Request is not valid!
+[ 76 ms ] worker_60376: Send response to client
+[ 76 ms ] worker_60376: Start wait for client data...
+[ 76 ms ] worker_60376: 1448 bytes were received from client 4
+[ 76 ms ] worker_60376: Start to process client request
+[ 76 ms ] worker_60376: Request is not valid!
+[ 76 ms ] worker_60376: Send response to client
+[ 76 ms ] worker_60376: Start wait for client data...
+[ 76 ms ] worker_60376: 1448 bytes were received from client 4
+[ 76 ms ] worker_60376: Start to process client request
+[ 76 ms ] worker_60376: Request is not valid!
+[ 76 ms ] worker_60376: Send response to client
+[ 76 ms ] worker_60376: Start wait for client data...
+[ 76 ms ] worker_60376: 1448 bytes were received from client 4
+[ 76 ms ] worker_60376: Start to process client request
+[ 76 ms ] worker_60376: Request is not valid!
+[ 76 ms ] worker_60376: Send response to client
+[ 76 ms ] worker_60376: Start wait for client data...
+[ 76 ms ] worker_60376: 1448 bytes were received from client 4
+[ 76 ms ] worker_60376: Start to process client request
+[ 76 ms ] worker_60376: Request is not valid!
+[ 76 ms ] worker_60376: Send response to client
+[ 76 ms ] worker_60376: Start wait for client data...
+[ 76 ms ] worker_60376: 1448 bytes were received from client 4
+[ 76 ms ] worker_60376: Start to process client request
+[ 76 ms ] worker_60376: Request is not valid!
+[ 76 ms ] worker_60376: Send response to client
+[ 76 ms ] worker_60376: Start wait for client data...
+[ 76 ms ] worker_60376: 1448 bytes were received from client 4
+[ 76 ms ] worker_60376: Start to process client request
+[ 76 ms ] worker_60376: Request is not valid!
+[ 76 ms ] worker_60376: Send response to client
+[ 77 ms ] worker_60376: Start wait for client data...
+[ 77 ms ] worker_60376: 1448 bytes were received from client 4
+[ 77 ms ] worker_60376: Start to process client request
+[ 77 ms ] worker_60376: Request is not valid!
+[ 77 ms ] worker_60376: Send response to client
+[ 77 ms ] worker_60376: Start wait for client data...
+[ 80 ms ] worker_60376: 1370 bytes were received from client 4
+[ 80 ms ] worker_60376: Start to process client request
+[ 80 ms ] worker_60376: Request is not valid!
+[ 80 ms ] worker_60376: Send response to client
+[ 80 ms ] worker_60376: Start wait for client data...
+[ 2227 ms ] worker_60376: Error was occurred while receiving data from client
+[ 2227 ms ] worker_60376: Exit
+[ 2228 ms ] END

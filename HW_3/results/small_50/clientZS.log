@@ -1,0 +1,16 @@
+[ 0 ms ] START
+[ 1000 ms ] clientZ: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 1002 ms ] clientZ: Succesfully connected
+[ 1002 ms ] clientZ: Generating request...
+[ 1002 ms ] clientZ: Try to send data to server
+[ 1002 ms ] clientZ: All data has been sent: 6634 bytes
+
+[ 1002 ms ] clientZ: Wait for response...
+[ 1022 ms ] clientZ: Response has been received. Total: 22 bytes
+
+[ 1022 ms ] clientZ: Response is valid. Getting result
+[ 1022 ms ] clientZ: Result: 55322786
+[ 1022 ms ] clientZ: Close connection to server
+[ 1022 ms ] clientZ: Exit
+[ 1022 ms ] END

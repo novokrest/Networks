@@ -1,0 +1,43 @@
+[ 0 ms ] START
+[ 0 ms ] worker_60398: Hello, I'm new worker!
+[ 0 ms ] worker_60398: Incomming connection info: 0.0.0.0 : 0New client socket was created: 4
+
+[ 0 ms ] worker_60398: Start wait for client data...
+[ 9 ms ] worker_60398: 1448 bytes were received from client 4
+[ 9 ms ] worker_60398: Start to process client request
+[ 9 ms ] worker_60398: Request is not valid!
+[ 9 ms ] worker_60398: Send response to client
+[ 9 ms ] worker_60398: Start wait for client data...
+[ 11 ms ] worker_60398: 1448 bytes were received from client 4
+[ 11 ms ] worker_60398: Start to process client request
+[ 11 ms ] worker_60398: Request is not valid!
+[ 11 ms ] worker_60398: Send response to client
+[ 11 ms ] worker_60398: Start wait for client data...
+[ 20 ms ] worker_60398: 1448 bytes were received from client 4
+[ 20 ms ] worker_60398: Start to process client request
+[ 20 ms ] worker_60398: Request is not valid!
+[ 20 ms ] worker_60398: Send response to client
+[ 20 ms ] worker_60398: Start wait for client data...
+[ 20 ms ] worker_60398: 2896 bytes were received from client 4
+[ 20 ms ] worker_60398: Start to process client request
+[ 20 ms ] worker_60398: Request is not valid!
+[ 20 ms ] worker_60398: Send response to client
+[ 20 ms ] worker_60398: Start wait for client data...
+[ 20 ms ] worker_60398: 2896 bytes were received from client 4
+[ 20 ms ] worker_60398: Start to process client request
+[ 20 ms ] worker_60398: Request is not valid!
+[ 20 ms ] worker_60398: Send response to client
+[ 20 ms ] worker_60398: Start wait for client data...
+[ 20 ms ] worker_60398: 2896 bytes were received from client 4
+[ 20 ms ] worker_60398: Start to process client request
+[ 20 ms ] worker_60398: Request is not valid!
+[ 20 ms ] worker_60398: Send response to client
+[ 20 ms ] worker_60398: Start wait for client data...
+[ 20 ms ] worker_60398: 414 bytes were received from client 4
+[ 20 ms ] worker_60398: Start to process client request
+[ 20 ms ] worker_60398: Request is not valid!
+[ 20 ms ] worker_60398: Send response to client
+[ 20 ms ] worker_60398: Start wait for client data...
+[ 135 ms ] worker_60398: Error was occurred while receiving data from client
+[ 135 ms ] worker_60398: Exit
+[ 136 ms ] END
