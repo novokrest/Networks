@@ -202,7 +202,7 @@ int server::receive_request(request& out_client_request)
             }
         }
 
-
+        attempts = 0;
         int bytes_readed = recv(clientsock_, buf + all_bytes_readed, sizeof(buf) - all_bytes_readed, 0);
 
         if (bytes_readed < 0) {

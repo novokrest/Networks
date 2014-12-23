@@ -1,0 +1,30 @@
+[ 0 ms ] START
+[ 0 ms ] worker_71213: Hello, I'm new worker!
+[ 0 ms ] worker_71213: Incomming connection info: 127.0.0.1 : 65249
+
+[ 0 ms ] worker_71213: New client socket was created: 4
+
+[ 0 ms ] worker_71213: Start wait for client data...
+[ 0 ms ] worker_71213: 522884 bytes were received from client 4. Expected: 2000008 bytes.  Total: 522884 bytes
+
+[ 0 ms ] worker_71213: Start wait for client data...
+[ 1 ms ] worker_71213: 653644 bytes were received from client 4. Expected: 2000008 bytes.  Total: 1176528 bytes
+
+[ 1 ms ] worker_71213: Start wait for client data...
+[ 2 ms ] worker_71213: 637416 bytes were received from client 4. Expected: 2000008 bytes.  Total: 1813944 bytes
+
+[ 2 ms ] worker_71213: Start wait for client data...
+[ 15 ms ] worker_71213: 186064 bytes were received from client 4. Expected: 2000008 bytes.  Total: 2000008 bytes
+
+[ 15 ms ] worker_71213: PROCESS_CLIENT_REQUEST_START
+[ 15 ms ] worker_71213: Start to process client request
+[ 15 ms ] worker_71213: Request is valid. Begin result computing...
+[ 426 ms ] worker_71213: Computing completed
+[ 426 ms ] worker_71213: PROCESS_CLIENT_REQUEST_END
+[ 426 ms ] worker_71213: Send response to client
+[ 426 ms ] worker_71213: Start wait for client data...
+[ 427 ms ] worker_71213: Receive 0 bytes. Client closed connection. Goodbye!
+[ 427 ms ] worker_71213: Client socket 4 has been closed
+
+[ 427 ms ] worker_71213: Exit
+[ 427 ms ] END

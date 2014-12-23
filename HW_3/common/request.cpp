@@ -7,6 +7,12 @@ request request::generate_request()
     return request(elements_count);
 }
 
+request request::generate_request(size_t request_size)
+{
+    size_t elements_count = request_size;
+    return request(elements_count);
+}
+
 request::request()
     : is_valid_(false)
 {}

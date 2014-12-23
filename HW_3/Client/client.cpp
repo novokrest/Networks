@@ -109,17 +109,18 @@ int client::receive_response()
 
     logger_.log("Response is valid");
     if (response_from_server.status() == STATUS_BAD_REQUEST) {
-        logger_.log("Server said that it received BAD REQUEST");
+        logger_.log("STATUS BAD_REQUEST");
         close_connection();
         logger_.log("Exit");
         exit(EXIT_SUCCESS);
     }
 
-    logger_.log("Getting result from response");
+    logger_.log("STATUS OK");
 
+    logger_.log("Getting result from response");
     int32_t result = response_from_server.result();
 
-    ss << "Result: " << result;
+    ss << "RESULT " << result;
     logger_.log(ss.str());
     ss.str("");
     ss.clear(); ss.str("");
@@ -139,10 +140,10 @@ int client::close_connection()
     return 0;
 }
 
-int client::start()
+int client::start(size_t request_size)
 {
     logger_.log("GENERATE_REQUEST_START");
-    request request_to_server = request::generate_request();
+    request request_to_server = request_size > 0 ? request::generate_request(request_size) : request::generate_request();
     string serialized_request;
     request_to_server.serialize_to_string(serialized_request);
     logger_.log("GENERATE_REQUEST_END");

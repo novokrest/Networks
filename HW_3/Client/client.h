@@ -19,7 +19,7 @@ public:
     client(const string& name, sockaddr_in server_addr_);
     ~client();
 
-    int start();
+    int start(size_t request_size);
     int connect_to_server();
     int send_request(string& serialized_request);
     int receive_response();

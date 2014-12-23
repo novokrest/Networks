@@ -1,0 +1,205 @@
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 0 ms ] A: GENERATE_REQUEST_END
+[ 0 ms ] A: CONNECT_TO_SERVER_START
+[ 0 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 0 ms ] A: Error occurred while connecting to server
+[ 0 ms ] A: Connection refused
+[ 0 ms ] A: Exit
+[ 0 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 0 ms ] A: GENERATE_REQUEST_END
+[ 0 ms ] A: CONNECT_TO_SERVER_START
+[ 0 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 0 ms ] A: Error occurred while connecting to server
+[ 0 ms ] A: Connection refused
+[ 0 ms ] A: Exit
+[ 0 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 0 ms ] A: GENERATE_REQUEST_END
+[ 0 ms ] A: CONNECT_TO_SERVER_START
+[ 0 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 0 ms ] A: Succesfully connected
+[ 0 ms ] A: CONNECT_TO_SERVER_END
+[ 0 ms ] A: SEND_REQUEST_START
+[ 0 ms ] A: Try to send data to server
+[ 0 ms ] A: All data has been sent: 8 bytes
+
+[ 0 ms ] A: SEND_REQUEST_END
+[ 0 ms ] A: RECEIVE_RESPONSE_START
+[ 0 ms ] A: Wait for response...
+[ 0 ms ] A: Response has been received. Total: 22 bytes
+
+[ 0 ms ] A: Response is valid
+[ 0 ms ] A: Getting result from response
+[ 0 ms ] A: Result: 0
+[ 0 ms ] A: RECEIVE_RESPONSE_END
+[ 0 ms ] A: CLOSE_CONNECTION_START
+[ 0 ms ] A: Close connection to server
+[ 0 ms ] A: CLOSE_CONNECTION_END
+[ 0 ms ] A: Exit
+[ 1 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 84 ms ] A: GENERATE_REQUEST_END
+[ 84 ms ] A: CONNECT_TO_SERVER_START
+[ 84 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 84 ms ] A: Succesfully connected
+[ 84 ms ] A: CONNECT_TO_SERVER_END
+[ 84 ms ] A: SEND_REQUEST_START
+[ 84 ms ] A: Try to send data to server
+[ 85 ms ] A: All data has been sent: 1633934 bytes
+
+[ 85 ms ] A: SEND_REQUEST_END
+[ 85 ms ] A: RECEIVE_RESPONSE_START
+[ 85 ms ] A: Wait for response...
+[ 434 ms ] A: Response has been received. Total: 22 bytes
+
+[ 434 ms ] A: Response is valid
+[ 434 ms ] A: Getting result from response
+[ 434 ms ] A: Result: 445943118
+[ 434 ms ] A: RECEIVE_RESPONSE_END
+[ 434 ms ] A: CLOSE_CONNECTION_START
+[ 434 ms ] A: Close connection to server
+[ 434 ms ] A: CLOSE_CONNECTION_END
+[ 434 ms ] A: Exit
+[ 434 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 0 ms ] A: GENERATE_REQUEST_END
+[ 0 ms ] A: CONNECT_TO_SERVER_START
+[ 0 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 0 ms ] A: Succesfully connected
+[ 0 ms ] A: CONNECT_TO_SERVER_END
+[ 0 ms ] A: SEND_REQUEST_START
+[ 0 ms ] A: Try to send data to server
+[ 0 ms ] A: All data has been sent: 2008 bytes
+
+[ 0 ms ] A: SEND_REQUEST_END
+[ 0 ms ] A: RECEIVE_RESPONSE_START
+[ 0 ms ] A: Wait for response...
+[ 1 ms ] A: Response has been received. Total: 22 bytes
+
+[ 1 ms ] A: Response is valid
+[ 1 ms ] A: Getting result from response
+[ 1 ms ] A: Result: -15424159
+[ 1 ms ] A: RECEIVE_RESPONSE_END
+[ 1 ms ] A: CLOSE_CONNECTION_START
+[ 1 ms ] A: Close connection to server
+[ 1 ms ] A: CLOSE_CONNECTION_END
+[ 1 ms ] A: Exit
+[ 1 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 101 ms ] A: GENERATE_REQUEST_END
+[ 101 ms ] A: CONNECT_TO_SERVER_START
+[ 101 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 101 ms ] A: Succesfully connected
+[ 101 ms ] A: CONNECT_TO_SERVER_END
+[ 101 ms ] A: SEND_REQUEST_START
+[ 101 ms ] A: Try to send data to server
+[ 103 ms ] A: All data has been sent: 2000008 bytes
+
+[ 103 ms ] A: SEND_REQUEST_END
+[ 103 ms ] A: RECEIVE_RESPONSE_START
+[ 103 ms ] A: Wait for response...
+[ 536 ms ] A: Response has been received. Total: 22 bytes
+
+[ 536 ms ] A: Response is valid
+[ 536 ms ] A: Getting result from response
+[ 536 ms ] A: Result: 752148735
+[ 536 ms ] A: RECEIVE_RESPONSE_END
+[ 536 ms ] A: CLOSE_CONNECTION_START
+[ 536 ms ] A: Close connection to server
+[ 536 ms ] A: CLOSE_CONNECTION_END
+[ 536 ms ] A: Exit
+[ 536 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 104 ms ] A: GENERATE_REQUEST_END
+[ 105 ms ] A: CONNECT_TO_SERVER_START
+[ 105 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 105 ms ] A: Succesfully connected
+[ 105 ms ] A: CONNECT_TO_SERVER_END
+[ 105 ms ] A: SEND_REQUEST_START
+[ 105 ms ] A: Try to send data to server
+[ 106 ms ] A: All data has been sent: 2000008 bytes
+
+[ 106 ms ] A: SEND_REQUEST_END
+[ 106 ms ] A: RECEIVE_RESPONSE_START
+[ 106 ms ] A: Wait for response...
+[ 532 ms ] A: Response has been received. Total: 22 bytes
+
+[ 532 ms ] A: Response is valid
+[ 532 ms ] A: STATUS OK
+[ 532 ms ] A: Getting result from response
+[ 532 ms ] A: RESULT 756021363
+[ 532 ms ] A: RECEIVE_RESPONSE_END
+[ 532 ms ] A: CLOSE_CONNECTION_START
+[ 532 ms ] A: Close connection to server
+[ 532 ms ] A: CLOSE_CONNECTION_END
+[ 532 ms ] A: Exit
+[ 532 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 1 ms ] A: GENERATE_REQUEST_END
+[ 1 ms ] A: CONNECT_TO_SERVER_START
+[ 1 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 1 ms ] A: Succesfully connected
+[ 1 ms ] A: CONNECT_TO_SERVER_END
+[ 1 ms ] A: SEND_REQUEST_START
+[ 1 ms ] A: Try to send data to server
+[ 1 ms ] A: All data has been sent: 20008 bytes
+
+[ 1 ms ] A: SEND_REQUEST_END
+[ 1 ms ] A: RECEIVE_RESPONSE_START
+[ 1 ms ] A: Wait for response...
+[ 6 ms ] A: Response has been received. Total: 22 bytes
+
+[ 6 ms ] A: Response is valid
+[ 6 ms ] A: STATUS OK
+[ 6 ms ] A: Getting result from response
+[ 6 ms ] A: RESULT -165556465
+[ 6 ms ] A: RECEIVE_RESPONSE_END
+[ 6 ms ] A: CLOSE_CONNECTION_START
+[ 6 ms ] A: Close connection to server
+[ 6 ms ] A: CLOSE_CONNECTION_END
+[ 6 ms ] A: Exit
+[ 6 ms ] END
+[ 0 ms ] START
+[ 0 ms ] A: GENERATE_REQUEST_START
+[ 11 ms ] A: GENERATE_REQUEST_END
+[ 11 ms ] A: CONNECT_TO_SERVER_START
+[ 11 ms ] A: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
+
+[ 11 ms ] A: Succesfully connected
+[ 11 ms ] A: CONNECT_TO_SERVER_END
+[ 11 ms ] A: SEND_REQUEST_START
+[ 11 ms ] A: Try to send data to server
+[ 11 ms ] A: All data has been sent: 200008 bytes
+
+[ 11 ms ] A: SEND_REQUEST_END
+[ 11 ms ] A: RECEIVE_RESPONSE_START
+[ 11 ms ] A: Wait for response...
+[ 51 ms ] A: Response has been received. Total: 22 bytes
+
+[ 51 ms ] A: Response is valid
+[ 51 ms ] A: STATUS OK
+[ 51 ms ] A: Getting result from response
+[ 51 ms ] A: RESULT -1637145619
+[ 51 ms ] A: RECEIVE_RESPONSE_END
+[ 51 ms ] A: CLOSE_CONNECTION_START
+[ 51 ms ] A: Close connection to server
+[ 51 ms ] A: CLOSE_CONNECTION_END
+[ 51 ms ] A: Exit
+[ 51 ms ] END

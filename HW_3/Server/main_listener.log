@@ -1,0 +1,485 @@
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 3599 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 3599 ms ] main_listener: New incoming connection is available!
+[ 3599 ms ] main_listener: Try to create connection to client
+[ 3599 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 3599 ms ] main_listener: New worker 71027 is created
+
+[ 3599 ms ] main_listener: Close client connection...
+[ 3600 ms ] main_listener: Client socket 0 has been closed
+
+[ 3600 ms ] main_listener: My work is done. Continue listening...
+[ 3600 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2348 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2348 ms ] main_listener: New incoming connection is available!
+[ 2348 ms ] main_listener: Try to create connection to client
+[ 2348 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2348 ms ] main_listener: New worker 71069 is created
+
+[ 2348 ms ] main_listener: Close client connection...
+[ 2348 ms ] main_listener: Client socket 0 has been closed
+
+[ 2348 ms ] main_listener: My work is done. Continue listening...
+[ 2348 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2348 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2348 ms ] main_listener: New incoming connection is available!
+[ 2348 ms ] main_listener: Try to create connection to client
+[ 2348 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2348 ms ] main_listener: New worker 71069 is created
+
+[ 2348 ms ] main_listener: Close client connection...
+[ 2348 ms ] main_listener: Client socket 0 has been closed
+
+[ 2348 ms ] main_listener: My work is done. Continue listening...
+[ 2349 ms ] main_listener: Listening for connection
+[ 7349 ms ] main_listener: No connections is active. Continue waiting...
+[ 7349 ms ] main_listener: Listening for connection
+[ 12351 ms ] main_listener: No connections is active. Continue waiting...
+[ 12351 ms ] main_listener: Listening for connection
+[ 17351 ms ] main_listener: No connections is active. Continue waiting...
+[ 17351 ms ] main_listener: Listening for connection
+[ 22353 ms ] main_listener: No connections is active. Continue waiting...
+[ 22353 ms ] main_listener: Listening for connection
+[ 27353 ms ] main_listener: No connections is active. Continue waiting...
+[ 27353 ms ] main_listener: Listening for connection
+[ 32353 ms ] main_listener: No connections is active. Continue waiting...
+[ 32353 ms ] main_listener: Listening for connection
+[ 37354 ms ] main_listener: No connections is active. Continue waiting...
+[ 37355 ms ] main_listener: Nobody wants to connect. Exit
+[ 37355 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2348 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2348 ms ] main_listener: New incoming connection is available!
+[ 2348 ms ] main_listener: Try to create connection to client
+[ 2348 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2348 ms ] main_listener: New worker 71069 is created
+
+[ 2348 ms ] main_listener: Close client connection...
+[ 2348 ms ] main_listener: Client socket 0 has been closed
+
+[ 2348 ms ] main_listener: My work is done. Continue listening...
+[ 2349 ms ] main_listener: Listening for connection
+[ 7349 ms ] main_listener: No connections is active. Continue waiting...
+[ 7349 ms ] main_listener: Listening for connection
+[ 12351 ms ] main_listener: No connections is active. Continue waiting...
+[ 12351 ms ] main_listener: Listening for connection
+[ 17351 ms ] main_listener: No connections is active. Continue waiting...
+[ 17351 ms ] main_listener: Listening for connection
+[ 22353 ms ] main_listener: No connections is active. Continue waiting...
+[ 22353 ms ] main_listener: Listening for connection
+[ 27353 ms ] main_listener: No connections is active. Continue waiting...
+[ 27353 ms ] main_listener: Listening for connection
+[ 32353 ms ] main_listener: No connections is active. Continue waiting...
+[ 32353 ms ] main_listener: Listening for connection
+[ 37354 ms ] main_listener: No connections is active. Continue waiting...
+[ 37355 ms ] main_listener: Nobody wants to connect. Exit
+[ 37355 ms ] main_listener: Client socket 0 has been closed
+
+[ 37355 ms ] main_listener: Exit
+[ 37355 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2818 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2818 ms ] main_listener: New incoming connection is available!
+[ 2818 ms ] main_listener: Try to create connection to client
+[ 2818 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2818 ms ] main_listener: New worker 71087 is created
+
+[ 2818 ms ] main_listener: Close client connection...
+[ 2818 ms ] main_listener: Client socket 0 has been closed
+
+[ 2819 ms ] main_listener: My work is done. Continue listening...
+[ 2819 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2818 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2818 ms ] main_listener: New incoming connection is available!
+[ 2818 ms ] main_listener: Try to create connection to client
+[ 2818 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2818 ms ] main_listener: New worker 71087 is created
+
+[ 2818 ms ] main_listener: Close client connection...
+[ 2818 ms ] main_listener: Client socket 0 has been closed
+
+[ 2819 ms ] main_listener: My work is done. Continue listening...
+[ 2819 ms ] main_listener: Listening for connection
+[ 7820 ms ] main_listener: No connections is active. Continue waiting...
+[ 7820 ms ] main_listener: Listening for connection
+[ 12820 ms ] main_listener: No connections is active. Continue waiting...
+[ 12820 ms ] main_listener: Listening for connection
+[ 17821 ms ] main_listener: No connections is active. Continue waiting...
+[ 17821 ms ] main_listener: Listening for connection
+[ 22822 ms ] main_listener: No connections is active. Continue waiting...
+[ 22822 ms ] main_listener: Listening for connection
+[ 27822 ms ] main_listener: No connections is active. Continue waiting...
+[ 27822 ms ] main_listener: Listening for connection
+[ 32823 ms ] main_listener: No connections is active. Continue waiting...
+[ 32823 ms ] main_listener: Listening for connection
+[ 37823 ms ] main_listener: No connections is active. Continue waiting...
+[ 37823 ms ] main_listener: Nobody wants to connect. Exit
+[ 37823 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2818 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2818 ms ] main_listener: New incoming connection is available!
+[ 2818 ms ] main_listener: Try to create connection to client
+[ 2818 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2818 ms ] main_listener: New worker 71087 is created
+
+[ 2818 ms ] main_listener: Close client connection...
+[ 2818 ms ] main_listener: Client socket 0 has been closed
+
+[ 2819 ms ] main_listener: My work is done. Continue listening...
+[ 2819 ms ] main_listener: Listening for connection
+[ 7820 ms ] main_listener: No connections is active. Continue waiting...
+[ 7820 ms ] main_listener: Listening for connection
+[ 12820 ms ] main_listener: No connections is active. Continue waiting...
+[ 12820 ms ] main_listener: Listening for connection
+[ 17821 ms ] main_listener: No connections is active. Continue waiting...
+[ 17821 ms ] main_listener: Listening for connection
+[ 22822 ms ] main_listener: No connections is active. Continue waiting...
+[ 22822 ms ] main_listener: Listening for connection
+[ 27822 ms ] main_listener: No connections is active. Continue waiting...
+[ 27822 ms ] main_listener: Listening for connection
+[ 32823 ms ] main_listener: No connections is active. Continue waiting...
+[ 32823 ms ] main_listener: Listening for connection
+[ 37823 ms ] main_listener: No connections is active. Continue waiting...
+[ 37823 ms ] main_listener: Nobody wants to connect. Exit
+[ 37823 ms ] main_listener: Client socket 0 has been closed
+
+[ 37823 ms ] main_listener: Exit
+[ 37824 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2125 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2125 ms ] main_listener: New incoming connection is available!
+[ 2125 ms ] main_listener: Try to create connection to client
+[ 2125 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2125 ms ] main_listener: New worker 71137 is created
+
+[ 2125 ms ] main_listener: Close client connection...
+[ 2125 ms ] main_listener: Client socket 0 has been closed
+
+[ 2125 ms ] main_listener: My work is done. Continue listening...
+[ 2126 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2125 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2125 ms ] main_listener: New incoming connection is available!
+[ 2125 ms ] main_listener: Try to create connection to client
+[ 2125 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2125 ms ] main_listener: New worker 71137 is created
+
+[ 2125 ms ] main_listener: Close client connection...
+[ 2125 ms ] main_listener: Client socket 0 has been closed
+
+[ 2125 ms ] main_listener: My work is done. Continue listening...
+[ 2126 ms ] main_listener: Listening for connection
+[ 7126 ms ] main_listener: No connections is active. Continue waiting...
+[ 7126 ms ] main_listener: Listening for connection
+[ 12127 ms ] main_listener: No connections is active. Continue waiting...
+[ 12127 ms ] main_listener: Listening for connection
+[ 17128 ms ] main_listener: No connections is active. Continue waiting...
+[ 17128 ms ] main_listener: Listening for connection
+[ 22129 ms ] main_listener: No connections is active. Continue waiting...
+[ 22129 ms ] main_listener: Listening for connection
+[ 27129 ms ] main_listener: No connections is active. Continue waiting...
+[ 27129 ms ] main_listener: Listening for connection
+[ 32130 ms ] main_listener: No connections is active. Continue waiting...
+[ 32130 ms ] main_listener: Listening for connection
+[ 37131 ms ] main_listener: No connections is active. Continue waiting...
+[ 37131 ms ] main_listener: Nobody wants to connect. Exit
+[ 37131 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 2125 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 2125 ms ] main_listener: New incoming connection is available!
+[ 2125 ms ] main_listener: Try to create connection to client
+[ 2125 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 2125 ms ] main_listener: New worker 71137 is created
+
+[ 2125 ms ] main_listener: Close client connection...
+[ 2125 ms ] main_listener: Client socket 0 has been closed
+
+[ 2125 ms ] main_listener: My work is done. Continue listening...
+[ 2126 ms ] main_listener: Listening for connection
+[ 7126 ms ] main_listener: No connections is active. Continue waiting...
+[ 7126 ms ] main_listener: Listening for connection
+[ 12127 ms ] main_listener: No connections is active. Continue waiting...
+[ 12127 ms ] main_listener: Listening for connection
+[ 17128 ms ] main_listener: No connections is active. Continue waiting...
+[ 17128 ms ] main_listener: Listening for connection
+[ 22129 ms ] main_listener: No connections is active. Continue waiting...
+[ 22129 ms ] main_listener: Listening for connection
+[ 27129 ms ] main_listener: No connections is active. Continue waiting...
+[ 27129 ms ] main_listener: Listening for connection
+[ 32130 ms ] main_listener: No connections is active. Continue waiting...
+[ 32130 ms ] main_listener: Listening for connection
+[ 37131 ms ] main_listener: No connections is active. Continue waiting...
+[ 37131 ms ] main_listener: Nobody wants to connect. Exit
+[ 37131 ms ] main_listener: Client socket 0 has been closed
+
+[ 37132 ms ] main_listener: Exit
+[ 37132 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 3633 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 3633 ms ] main_listener: New incoming connection is available!
+[ 3633 ms ] main_listener: Try to create connection to client
+[ 3633 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 3634 ms ] main_listener: New worker 71213 is created
+
+[ 3634 ms ] main_listener: Close client connection...
+[ 3634 ms ] main_listener: Client socket 0 has been closed
+
+[ 3634 ms ] main_listener: My work is done. Continue listening...
+[ 3634 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 3633 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 3633 ms ] main_listener: New incoming connection is available!
+[ 3633 ms ] main_listener: Try to create connection to client
+[ 3633 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 3634 ms ] main_listener: New worker 71213 is created
+
+[ 3634 ms ] main_listener: Close client connection...
+[ 3634 ms ] main_listener: Client socket 0 has been closed
+
+[ 3634 ms ] main_listener: My work is done. Continue listening...
+[ 3634 ms ] main_listener: Listening for connection
+[ 8635 ms ] main_listener: No connections is active. Continue waiting...
+[ 8635 ms ] main_listener: Listening for connection
+[ 13321 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 13321 ms ] main_listener: New incoming connection is available!
+[ 13321 ms ] main_listener: Try to create connection to client
+[ 13321 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 13322 ms ] main_listener: New worker 71215 is created
+
+[ 13322 ms ] main_listener: Close client connection...
+[ 13322 ms ] main_listener: Client socket 0 has been closed
+
+[ 13322 ms ] main_listener: My work is done. Continue listening...
+[ 13322 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 3633 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 3633 ms ] main_listener: New incoming connection is available!
+[ 3633 ms ] main_listener: Try to create connection to client
+[ 3633 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 3634 ms ] main_listener: New worker 71213 is created
+
+[ 3634 ms ] main_listener: Close client connection...
+[ 3634 ms ] main_listener: Client socket 0 has been closed
+
+[ 3634 ms ] main_listener: My work is done. Continue listening...
+[ 3634 ms ] main_listener: Listening for connection
+[ 8635 ms ] main_listener: No connections is active. Continue waiting...
+[ 8635 ms ] main_listener: Listening for connection
+[ 13321 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 13321 ms ] main_listener: New incoming connection is available!
+[ 13321 ms ] main_listener: Try to create connection to client
+[ 13321 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 13322 ms ] main_listener: New worker 71215 is created
+
+[ 13322 ms ] main_listener: Close client connection...
+[ 13322 ms ] main_listener: Client socket 0 has been closed
+
+[ 13322 ms ] main_listener: My work is done. Continue listening...
+[ 13322 ms ] main_listener: Listening for connection
+[ 18322 ms ] main_listener: No connections is active. Continue waiting...
+[ 18322 ms ] main_listener: Listening for connection
+[ 19586 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 19586 ms ] main_listener: New incoming connection is available!
+[ 19586 ms ] main_listener: Try to create connection to client
+[ 19586 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 19586 ms ] main_listener: New worker 71217 is created
+
+[ 19586 ms ] main_listener: Close client connection...
+[ 19586 ms ] main_listener: Client socket 0 has been closed
+
+[ 19586 ms ] main_listener: My work is done. Continue listening...
+[ 19587 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 3633 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 3633 ms ] main_listener: New incoming connection is available!
+[ 3633 ms ] main_listener: Try to create connection to client
+[ 3633 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 3634 ms ] main_listener: New worker 71213 is created
+
+[ 3634 ms ] main_listener: Close client connection...
+[ 3634 ms ] main_listener: Client socket 0 has been closed
+
+[ 3634 ms ] main_listener: My work is done. Continue listening...
+[ 3634 ms ] main_listener: Listening for connection
+[ 8635 ms ] main_listener: No connections is active. Continue waiting...
+[ 8635 ms ] main_listener: Listening for connection
+[ 13321 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 13321 ms ] main_listener: New incoming connection is available!
+[ 13321 ms ] main_listener: Try to create connection to client
+[ 13321 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 13322 ms ] main_listener: New worker 71215 is created
+
+[ 13322 ms ] main_listener: Close client connection...
+[ 13322 ms ] main_listener: Client socket 0 has been closed
+
+[ 13322 ms ] main_listener: My work is done. Continue listening...
+[ 13322 ms ] main_listener: Listening for connection
+[ 18322 ms ] main_listener: No connections is active. Continue waiting...
+[ 18322 ms ] main_listener: Listening for connection
+[ 19586 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 19586 ms ] main_listener: New incoming connection is available!
+[ 19586 ms ] main_listener: Try to create connection to client
+[ 19586 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 19586 ms ] main_listener: New worker 71217 is created
+
+[ 19586 ms ] main_listener: Close client connection...
+[ 19586 ms ] main_listener: Client socket 0 has been closed
+
+[ 19586 ms ] main_listener: My work is done. Continue listening...
+[ 19587 ms ] main_listener: Listening for connection
+[ 24587 ms ] main_listener: No connections is active. Continue waiting...
+[ 24587 ms ] main_listener: Listening for connection
+[ 29588 ms ] main_listener: No connections is active. Continue waiting...
+[ 29588 ms ] main_listener: Listening for connection
+[ 34589 ms ] main_listener: No connections is active. Continue waiting...
+[ 34589 ms ] main_listener: Listening for connection
+[ 39590 ms ] main_listener: No connections is active. Continue waiting...
+[ 39590 ms ] main_listener: Listening for connection
+[ 44591 ms ] main_listener: No connections is active. Continue waiting...
+[ 44591 ms ] main_listener: Listening for connection
+[ 49592 ms ] main_listener: No connections is active. Continue waiting...
+[ 49592 ms ] main_listener: Listening for connection
+[ 54593 ms ] main_listener: No connections is active. Continue waiting...
+[ 54593 ms ] main_listener: Nobody wants to connect. Exit
+[ 54594 ms ] END
+[ 0 ms ] START
+[ 0 ms ] main_listener: Listener 3 bind to: 0.0.0.0 : 7000
+
+[ 0 ms ] main_listener: Start listening...
+[ 0 ms ] main_listener: Listening for connection
+[ 3633 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 3633 ms ] main_listener: New incoming connection is available!
+[ 3633 ms ] main_listener: Try to create connection to client
+[ 3633 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 3634 ms ] main_listener: New worker 71213 is created
+
+[ 3634 ms ] main_listener: Close client connection...
+[ 3634 ms ] main_listener: Client socket 0 has been closed
+
+[ 3634 ms ] main_listener: My work is done. Continue listening...
+[ 3634 ms ] main_listener: Listening for connection
+[ 8635 ms ] main_listener: No connections is active. Continue waiting...
+[ 8635 ms ] main_listener: Listening for connection
+[ 13321 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 13321 ms ] main_listener: New incoming connection is available!
+[ 13321 ms ] main_listener: Try to create connection to client
+[ 13321 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 13322 ms ] main_listener: New worker 71215 is created
+
+[ 13322 ms ] main_listener: Close client connection...
+[ 13322 ms ] main_listener: Client socket 0 has been closed
+
+[ 13322 ms ] main_listener: My work is done. Continue listening...
+[ 13322 ms ] main_listener: Listening for connection
+[ 18322 ms ] main_listener: No connections is active. Continue waiting...
+[ 18322 ms ] main_listener: Listening for connection
+[ 19586 ms ] main_listener: There are 1 active connections. Start for its processing...
+
+[ 19586 ms ] main_listener: New incoming connection is available!
+[ 19586 ms ] main_listener: Try to create connection to client
+[ 19586 ms ] main_listener: Connection is accepted! It's time to fork!
+[ 19586 ms ] main_listener: New worker 71217 is created
+
+[ 19586 ms ] main_listener: Close client connection...
+[ 19586 ms ] main_listener: Client socket 0 has been closed
+
+[ 19586 ms ] main_listener: My work is done. Continue listening...
+[ 19587 ms ] main_listener: Listening for connection
+[ 24587 ms ] main_listener: No connections is active. Continue waiting...
+[ 24587 ms ] main_listener: Listening for connection
+[ 29588 ms ] main_listener: No connections is active. Continue waiting...
+[ 29588 ms ] main_listener: Listening for connection
+[ 34589 ms ] main_listener: No connections is active. Continue waiting...
+[ 34589 ms ] main_listener: Listening for connection
+[ 39590 ms ] main_listener: No connections is active. Continue waiting...
+[ 39590 ms ] main_listener: Listening for connection
+[ 44591 ms ] main_listener: No connections is active. Continue waiting...
+[ 44591 ms ] main_listener: Listening for connection
+[ 49592 ms ] main_listener: No connections is active. Continue waiting...
+[ 49592 ms ] main_listener: Listening for connection
+[ 54593 ms ] main_listener: No connections is active. Continue waiting...
+[ 54593 ms ] main_listener: Nobody wants to connect. Exit
+[ 54594 ms ] main_listener: Client socket 0 has been closed
+
+[ 54594 ms ] main_listener: Exit
+[ 54595 ms ] END

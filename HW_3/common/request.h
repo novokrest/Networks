@@ -10,7 +10,7 @@ static const int REQUEST_MAX_LENGTH = 2000008;
  * Request has following structure:
  *
  * [ <packet_length> ]-[ <elements_count> ]-[          <elements>          ]
- * [     4 bytes     ]-[     4 bytes      ]-[ 0..10000 of 2-bytes elements ]
+ * [     4 bytes     ]-[     4 bytes      ]-[ 0..1000000 of 2-bytes elements ]
  *
  */
 
@@ -23,6 +23,7 @@ struct request
     static const size_t  ELEMENTS_MAX_COUNT = (REQUEST_MAX_LENGTH - 8) / 2;
 
     static request generate_request();
+    static request generate_request(size_t request_size);
 
     request();
     request(size_t elements_count);
