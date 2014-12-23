@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOURCE_DIR=..
-CURRENT_DIR=.
+SOURCE_DIR=~/Github/Networks/HW_3
+CURRENT_DIR=${SOURCE_DIR}/test
 
 SERVER_DIR=${SOURCE_DIR}/Server
 SERVER_START=${SERVER_DIR}/start.sh
@@ -11,52 +11,29 @@ CLIENT_DIR=${SOURCE_DIR}/Client
 CLIENT_START=${CLIENT_DIR}/start.sh
 CLIENT_EXE=${CLIENT_DIR}/client
 
-clients=(
-clientA
-clientB
-clientC
-clientD
-clientE
-clientF
-clientH
-clientI
-clientJ
-clientK
-clientL
-clientM
-clientN
-clientO
-clientP
-clientQ
-clientR
-clientS
-clientT
-clientU
-clientV
-clientW
-clientX
-clientY
-clientZ
-)
 
-ip=127.0.0.1
-port=7000
+CLIENTS_COUNT=$1
+REQUEST_SIZE=$2
+IP=$3
+PORT=$4
 
-clear
-cd ${SERVER_DIR}
-${SERVER_START}
-cd -
+#Run server
+#./server ${PORT} &
 
-cd ${CLIENT_DIR}
-bash ${CLIENT_START}
-cd -
-
-${SERVER_EXE} ${port} &
-
-for name in ${clients[*]}
+#Run clients
+for i in `seq 1 ${CLIENTS_COUNT}`
 do
-    ${CLIENT_EXE} -n ${name} -sip ${ip} -sport ${port} &
+    CLIENT_NAME="client_$i"
+    echo "${CLIENT_NAME} starts"
+    ./client -n ${CLIENT_NAME} -sip ${IP} -sport ${PORT} -rs ${REQUEST_SIZE} &
 done
 
 wait
+
+RESULT_DIR_NAME="test_cs${CLIENTS_COUNT}_rs${REQUEST_SIZE}"
+echo ${RESULT_DIR_NAME}
+mkdir ${RESULT_DIR_NAME}
+mv *.log ${RESULT_DIR_NAME}
+
+
 
