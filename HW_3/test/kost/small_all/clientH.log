@@ -1,0 +1,16 @@
+[ 0 ms ] START
+[ 1000 ms ] clientH: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 1164 ms ] clientH: Succesfully connected
+[ 1166 ms ] clientH: Generating request...
+[ 1166 ms ] clientH: Try to send data to server
+[ 1166 ms ] clientH: All data has been sent: 4058 bytes
+
+[ 1171 ms ] clientH: Wait for response...
+[ 1235 ms ] clientH: Response has been received. Total: 22 bytes
+
+[ 1235 ms ] clientH: Response is valid. Getting result
+[ 1235 ms ] clientH: Result: 34381828
+[ 1235 ms ] clientH: Close connection to server
+[ 1235 ms ] clientH: Exit
+[ 1236 ms ] END

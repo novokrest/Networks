@@ -1,0 +1,15 @@
+[ 0 ms ] START
+[ 1000 ms ] clientQ: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 1206 ms ] clientQ: Succesfully connected
+[ 1207 ms ] clientQ: Generating request...
+[ 1221 ms ] clientQ: Try to send data to server
+[ 1231 ms ] clientQ: All data has been sent: 17340 bytes
+
+[ 1231 ms ] clientQ: Wait for response...
+[ 3369 ms ] clientQ: Response has been received. Total: 154 bytes
+
+[ 3369 ms ] clientQ: Response not valid!
+[ 3369 ms ] clientQ: Close connection to server
+[ 3369 ms ] clientQ: Exit
+[ 3369 ms ] END

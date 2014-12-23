@@ -1,0 +1,15 @@
+[ 0 ms ] START
+[ 1000 ms ] clientO: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 3529 ms ] clientO: Succesfully connected
+[ 3529 ms ] clientO: Generating request...
+[ 3545 ms ] clientO: Try to send data to server
+[ 7628 ms ] clientO: All data has been sent: 200008 bytes
+
+[ 7628 ms ] clientO: Wait for response...
+[ 7628 ms ] clientO: Response has been received. Total: 305 bytes
+
+[ 7628 ms ] clientO: Response not valid!
+[ 7628 ms ] clientO: Close connection to server
+[ 7628 ms ] clientO: Exit
+[ 7628 ms ] END
