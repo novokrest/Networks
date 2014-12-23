@@ -36,7 +36,7 @@ int server::start()
 {
     if (bind(listener_, (const sockaddr*)&addr_, sizeof(struct sockaddr)) < 0) {
         logger_.log("Couldn't bind socket for listening.");
-        perror(strerror(errno));
+        logger_.log(strerror(errno));
         logger_.log("Exit");
         exit(EXIT_FAILURE);
     }
@@ -44,16 +44,16 @@ int server::start()
     stringstream ss;
     ss << "Listener " << listener_ << " bind to: " << inet_ntoa(addr_.sin_addr) << " : " << ntohs(addr_.sin_port) << endl;
     logger_.log(ss.str());
-    ss.clear();
+    ss.clear(); ss.str("");
 
     if (listen(listener_, MAX_BACKLOG) < 0) {
         logger_.log("Couldn't start listening");
-        perror(strerror(errno));
+        logger_.log(strerror(errno));
         return -1;
     }
     logger_.log("Start listening...");
 
-    size_t alone_count = 0;
+    size_t attempts = 0;
     while(true) {
         fd_set readfs;
         FD_ZERO(&readfs);
@@ -64,24 +64,25 @@ int server::start()
         int active_count = select(listener_ + 1, &readfs, NULL, NULL, &timeout_);
         if (active_count < 0) {
             logger_.log("Error occurred while waiting for connections");
-            perror(strerror(errno));
+            logger_.log(strerror(errno));
             logger_.log("Exit");
             exit(EXIT_FAILURE);
         }
         else if (active_count == 0) {
             logger_.log("No connections is active. Continue waiting...");
-            ++alone_count;
-            if (alone_count == 5) {
+            ++attempts;
+            if (attempts == 7) {
                 break;
             }
             else {
                 continue;
             }
         }
-
+        
+        attempts = 0;
         ss << "There are " << active_count << " active connections. Start for its processing..." << endl;
         logger_.log(ss.str());
-        ss.clear();
+        ss.clear(); ss.str("");
 
         if (FD_ISSET(listener_, &readfs)) {
             logger_.log("New incoming connection is available!");
@@ -108,7 +109,7 @@ int server::create_client_connection()
     int clientsock = accept(listener_, (sockaddr*)&client_addr, (socklen_t*)&client_addrlen);
     if (clientsock < 0) {
         logger_.log("Error occurred while accept client connection. Connection hasn't been created");
-        perror(strerror(errno));
+        logger_.log(strerror(errno));
         return -1;
     }
 
@@ -116,30 +117,17 @@ int server::create_client_connection()
     pid_t pid = fork();
     if (pid < 0) {
         logger_.log("Error occurred: couldn't fork. Close connection...");
-        perror(strerror(errno));
-        if (close(clientsock) < 0) {
-            ss << "Error occurred while closing client connection: socket " << clientsock;
-            logger_.log(ss.str());
-            ss.clear();
-        }
-        else {
-            ss << "Client socket " << clientsock << "was succesfully closed";
-            logger_.log(ss.str());
-            ss.clear();
-        }
+        logger_.log(strerror(errno));
+        close_connection(clientsock);
         return -1;
     }
     if (pid > 0) {
         workers_.push_back(pid);
-        ss << "New worker " << pid << " is created";
+        ss << "New worker " << pid << " is created" << endl;
         logger_.log(ss.str());
-        ss.clear();
+        ss.clear(); ss.str("");
         logger_.log("Close client connection...");
-        if (close(clientsock) < 0) {
-            ss << "Error occurred while closing client connection: socket " << clientsock;
-            logger_.log(ss.str());
-            ss.clear();
-        }
+        close_connection(clientsock);
         logger_.log("My work is done. Continue listening...");
         return 0;
     }
@@ -153,11 +141,13 @@ int server::create_client_connection()
     clientsock_ = clientsock;
     fcntl(clientsock_, F_SETFL, O_NONBLOCK);
 
-    ss.clear();
-    ss << "Incomming connection info: " << inet_ntoa(client_addr.sin_addr) << " : " << ntohs(client_addr.sin_port);
+    ss.clear(); ss.str("");
+    ss << "Incomming connection info: " << inet_ntoa(client_addr.sin_addr) << " : " << ntohs(client_addr.sin_port) << endl;
+    logger_.log(ss.str());
+    ss.clear(); ss.str("");
     ss << "New client socket was created: " << clientsock << endl;
     logger_.log(ss.str());
-    ss.clear();
+    ss.clear(); ss.str("");
 
     process_client();
 
@@ -171,7 +161,11 @@ int server::process_client()
         response response_to_client;
 
         receive_request(client_request);
+
+        logger_.log("PROCESS_CLIENT_REQUEST_START");
         process_request(client_request, response_to_client);
+        logger_.log("PROCESS_CLIENT_REQUEST_END");
+
         send_response(response_to_client);
     }
 }
@@ -180,55 +174,69 @@ int server::receive_request(request& out_client_request)
 {
     stringstream ss;
 
-    int attempts = 0;
-    while (true) {
-        fd_set readfs;
-        FD_ZERO(&readfs);
-        FD_SET(clientsock_, &readfs);
+    size_t all_bytes_readed = 0;
+    char buf[REQUEST_MAX_LENGTH];
 
-        logger_.log("Start wait for client data...");
-        int active = select(clientsock_ + 1, &readfs, NULL, NULL, &timeout_);
-        ++attempts;
-        if (active > 0) {
-            break;
-        }
-        logger_.log("No data received. Continue waiting...");
-        if (attempts == 5) {
-            ss << "Timeout is end. Close client socket " << clientsock_ << "Goodbye!";
-            logger_.log(ss.str());
-            ss.clear();
-            if (close(clientsock_) < 0) {
-                ss << "Error occurred while closing client connection: socket " << clientsock_;
-                logger_.log(ss.str());
-                ss.clear();
+    int attempts = 0;
+    while(true) {
+        while (true) {
+            fd_set readfs;
+            FD_ZERO(&readfs);
+            FD_SET(clientsock_, &readfs);
+
+            logger_.log("Start wait for client data...");
+            int active = select(clientsock_ + 1, &readfs, NULL, NULL, &timeout_);
+            ++attempts;
+            if (active > 0) {
+                break;
             }
+
+            logger_.log("No data received. Continue waiting...");
+            if (attempts == 3) {
+                ss << "Timeout is end. Close client socket " << clientsock_ << "Goodbye!" << endl;
+                logger_.log(ss.str());
+                ss.clear(); ss.str("");
+                close_connection(clientsock_);
+                logger_.log("Exit");
+                exit(EXIT_SUCCESS);
+            }
+        }
+
+
+        int bytes_readed = recv(clientsock_, buf + all_bytes_readed, sizeof(buf) - all_bytes_readed, 0);
+
+        if (bytes_readed < 0) {
+            logger_.log("Error was occurred while receiving data from client");
+            logger_.log(strerror(errno));
+            close_connection(clientsock_);
             logger_.log("Exit");
             exit(EXIT_SUCCESS);
         }
+
+        if (bytes_readed == 0) {
+            logger_.log("Receive 0 bytes. Client closed connection. Goodbye!");
+            close_connection(clientsock_);
+            logger_.log("Exit");
+            exit(EXIT_SUCCESS);
+        }
+
+        all_bytes_readed += bytes_readed;
+        out_client_request.deserialize_from_string(string(buf, all_bytes_readed));
+
+        ss << bytes_readed << " bytes were received from client " << clientsock_ << ". "
+           << "Expected: " << out_client_request.length() << " bytes. "
+           << " Total: " << all_bytes_readed << " bytes" << endl;
+        logger_.log(ss.str());
+        ss.clear(); ss.str("");
+
+        if (out_client_request.length() > all_bytes_readed) {
+            continue;
+        }
+        else {
+            break;
+        }
     }
 
-    char buf[REQUEST_MAX_LENGTH];
-    ssize_t bytes_readed = recv(clientsock_, buf, sizeof(buf), 0);
-
-    if (bytes_readed < 0) {
-        logger_.log("Error was occurred while receiving data from client");
-        close_connection(clientsock_);
-        logger_.log("Exit");
-        exit(EXIT_SUCCESS);
-    }
-
-    if (bytes_readed == 0) {
-        logger_.log("Receive 0 bytes. Client closed connection. Goodbye!");
-        close_connection(clientsock_);
-        logger_.log("Exit");
-        exit(EXIT_SUCCESS);
-    }
-
-    ss << bytes_readed << " bytes were received from client " << clientsock_;
-    logger_.log(ss.str());
-    ss.clear();
-
-    out_client_request.deserialize_from_string(string(buf, bytes_readed));
     return 0;
 }
 
@@ -264,7 +272,7 @@ int server::send_response(response& response_to_client)
     if (send_all(clientsock_, (char*)serialized.c_str(), serialized.size(), 0) < 0) {
         logger_.log("Error occurred during send response");
         close_connection(clientsock_);
-        perror(strerror(errno));
+        logger_.log(strerror(errno));
         logger_.log("Exit");
         exit(EXIT_SUCCESS);
     }
@@ -278,8 +286,11 @@ void server::close_connection(int sock)
     if (close(sock) < 0) {
         ss << "Error occurred while closing client connection: socket " << clientsock_;
         logger_.log(ss.str());
-        ss.clear();
+        ss.clear(); ss.str("");
     }
+
+    ss << "Client socket " << clientsock_ << " has been closed" << endl;
+    logger_.log(ss.str());
 }
 
 void server::exit(int flag)

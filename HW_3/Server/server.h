@@ -6,7 +6,7 @@
 #include "response.h"
 #include "logger.h"
 
-static const int MAX_BACKLOG = 100;
+static const int MAX_BACKLOG = 1000;
 
 class server
 {

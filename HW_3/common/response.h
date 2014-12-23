@@ -27,6 +27,7 @@ struct response
 
     bool operator==(const response& other);
 
+    uint32_t length();
     bool is_valid();
     const string& author();
     uint8_t status();
@@ -38,6 +39,8 @@ struct response
     string to_string();
 
 private:
+    uint32_t length_;
+
     bool is_valid_;
     string author_;
     uint8_t status_;

@@ -21,7 +21,7 @@ public:
 
     int start();
     int connect_to_server();
-    int send_request();
+    int send_request(string& serialized_request);
     int receive_response();
     int close_connection();
 

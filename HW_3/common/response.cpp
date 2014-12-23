@@ -27,6 +27,11 @@ bool response::operator ==(const response& other)
             && result_ == other.result_;
 }
 
+uint32_t response::length()
+{
+    return length_;
+}
+
 bool response::is_valid()
 {
     return is_valid_;

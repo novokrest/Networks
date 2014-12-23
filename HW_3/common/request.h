@@ -4,7 +4,7 @@
 #include "common.h"
 
 static const int REQUEST_MIN_LENGTH = 8;
-static const int REQUEST_MAX_LENGTH = 20008;
+static const int REQUEST_MAX_LENGTH = 2000008;
 
 /**
  * Request has following structure:
@@ -28,11 +28,9 @@ struct request
     request(size_t elements_count);
     bool operator==(const request& other);
 
+    uint32_t length();
     bool is_valid();
     vint16& numbers();
-
-//    char* serialize(int* out_size);
-//    int deserialize(char* buf, size_t len);
 
     void serialize_to_string(string& out_string);
     bool deserialize_from_string(const string& in_string);
@@ -41,6 +39,8 @@ struct request
     string to_string();
 
 private:
+    uint32_t length_;
+
     bool is_valid_;
     vint16 numbers_;
 };

@@ -26,6 +26,11 @@ bool request::operator ==(const request& other)
             && numbers_ == other.numbers_;
 }
 
+uint32_t request::length()
+{
+    return length_;
+}
+
 bool request::is_valid()
 {
     return is_valid_;
@@ -35,42 +40,6 @@ vint16& request::numbers()
 {
     return numbers_;
 }
-
-//char* request::serialize(int* out_size)
-//{
-//    const uint32_t ELEMENTS_COUNT = numbers_.size();
-//    const uint32_t BUF_SIZE = ELEMENTS_COUNT * ELEMENT_SIZE;
-
-//    size_t offset = 0;
-//    char* buf = new char[HEADER_SIZE + BUF_SIZE];
-//    to_bytes<uint32_t>(buf + offset, HEADER_SIZE, ELEMENTS_COUNT); offset += HEADER_SIZE;
-
-//    for (size_t i = 0; i < ELEMENTS_COUNT; ++i) {
-//        to_bytes<int16_t>(buf + offset, ELEMENT_SIZE, numbers[i]);
-//        offset += ELEMENT_SIZE;
-//    }
-//    assert(offset == BUF_SIZE);
-
-//    *out_size = BUF_SIZE;
-//    return buf;
-//}
-
-//int request::deserialize(char *buf, size_t len)
-//{
-//    size_t offset = 0;
-//    uint32_t ELEMENTS_COUNT = from_bytes<uint32_t>(buf, HEADER_SIZE); offset += HEADER_SIZE;
-//    if (HEADER_SIZE + ELEMENTS_COUNT * ELEMENT_SIZE != len) {
-//        request.is_bad = true;
-//        return -1;
-//    }
-
-//    for (size_t i = 0; i < ELEMENTS_COUNT; ++i) {
-//        numbers_[i] = from_bytes<int16_t>(buf + offset, ELEMENT_SIZE);
-//        offset += ELEMENT_SIZE;
-//    }
-
-//    return 0;
-//}
 
 void request::serialize_to_string(string& out_string)
 {
@@ -114,6 +83,7 @@ bool request::deserialize_from_string(const string& in_string)
     //packet_length
     uint32_t packet_length = from_bytes<uint32_t>(buf + offset, 4);
     offset += 4;
+    length_ = packet_length;
 
     if (packet_length != in_string.length()) {
         this->is_valid_ = false;
