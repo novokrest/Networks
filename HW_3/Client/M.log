@@ -1,6 +1,0 @@
-[ 0 ms ] START
-[ 1001 ms ] M: Try connect socket 3 to server: IP = 127.0.0.1, port = 7000
-
-[ 1001 ms ] M: Error occurred while connecting to server
-[ 1001 ms ] M: Exit
-[ 1001 ms ] END
