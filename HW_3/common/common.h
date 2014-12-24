@@ -24,6 +24,7 @@
 #include <sstream>
 #include <cassert>
 #include <algorithm>
+#include <thread>
 
 using std::cout;
 using std::endl;
@@ -34,6 +35,7 @@ using std::stringstream;
 using std::fstream;
 using std::ifstream;
 using std::ofstream;
+using std::thread;
 
 typedef unsigned char uchar;
 typedef std::vector<int> vint;
@@ -42,6 +44,7 @@ typedef std::vector<int32_t> vint32;
 typedef std::vector<char> vchar;
 typedef std::vector<string> vstring;
 typedef std::vector<pid_t> vpid_t;
+typedef std::map<pid_t, thread*> mpidthread;
 
 typedef std::chrono::system_clock c_clock;
 typedef std::chrono::system_clock::time_point time_point;

@@ -2,6 +2,9 @@
 #include "server.h"
 #include "utils.h"
 
+static const size_t LISTENER_ATTEMPTS = 100;
+static const size_t WORKER_ATTEMPTS = 100;
+
 server::server(unsigned short int portno)
     : name_("main_listener")
 {
@@ -71,7 +74,7 @@ int server::start()
         else if (active_count == 0) {
             logger_.log("No connections is active. Continue waiting...");
             ++attempts;
-            if (attempts == 7) {
+            if (attempts == LISTENER_ATTEMPTS) {
                 break;
             }
             else {
@@ -99,6 +102,16 @@ int server::start()
     return 0;
 }
 
+void server::wait_worker(pid_t pid)
+{
+    int status;
+    waitpid(pid, &status, 0);
+
+    stringstream ss;
+    ss << "Worker " << pid << " die" << endl;
+    logger_.log(ss.str());
+}
+
 int server::create_client_connection()
 {
     stringstream ss;
@@ -123,6 +136,10 @@ int server::create_client_connection()
     }
     if (pid > 0) {
         workers_.push_back(pid);
+
+        thread thr(&server::wait_worker, this, pid);
+        thr.detach();
+
         ss << "New worker " << pid << " is created" << endl;
         logger_.log(ss.str());
         ss.clear(); ss.str("");
@@ -192,7 +209,7 @@ int server::receive_request(request& out_client_request)
             }
 
             logger_.log("No data received. Continue waiting...");
-            if (attempts == 3) {
+            if (attempts == WORKER_ATTEMPTS) {
                 ss << "Timeout is end. Close client socket " << clientsock_ << "Goodbye!" << endl;
                 logger_.log(ss.str());
                 ss.clear(); ss.str("");

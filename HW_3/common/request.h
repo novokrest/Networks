@@ -17,8 +17,8 @@ static const int REQUEST_MAX_LENGTH = 2000008;
 struct request
 {
     static const size_t  ELEMENT_SIZE       = 2;
-    static const int16_t ELEMENT_MIN_VALUE  = 32767;
-    static const int16_t ELEMENT_MAX_VALUE  = -32767;
+    static const int16_t ELEMENT_MIN_VALUE  = 10;
+    static const int16_t ELEMENT_MAX_VALUE  = -10;
     static const size_t  ELEMENTS_MIN_COUNT = 1;
     static const size_t  ELEMENTS_MAX_COUNT = (REQUEST_MAX_LENGTH - 8) / 2;
 

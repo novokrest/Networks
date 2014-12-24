@@ -28,6 +28,7 @@ public:
 
     string worker_name();
     int start();
+    void wait_worker(pid_t pid);
     int create_client_connection();
     int process_client();
     int receive_request(request& out_client_request);
