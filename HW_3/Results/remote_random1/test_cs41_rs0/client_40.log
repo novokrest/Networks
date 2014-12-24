@@ -1,0 +1,20 @@
+[ 0 ms ] START
+[ 0 ms ] client_40: GENERATE_REQUEST_START
+[ 79 ms ] client_40: GENERATE_REQUEST_END
+[ 86 ms ] client_40: CONNECT_TO_SERVER_START
+[ 90 ms ] client_40: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 112 ms ] client_40: Succesfully connected
+[ 120 ms ] client_40: CONNECT_TO_SERVER_END
+[ 120 ms ] client_40: SEND_REQUEST_START
+[ 120 ms ] client_40: Try to send data to server
+[ 120 ms ] client_40: All data has been sent: 8032 bytes
+
+[ 135 ms ] client_40: SEND_REQUEST_END
+[ 135 ms ] client_40: RECEIVE_RESPONSE_START
+[ 140 ms ] client_40: Wait for response...
+[ 334 ms ] client_40: Error occurred while receiving response
+[ 334 ms ] client_40: Connection reset by peer
+[ 334 ms ] client_40: Close connection to server
+[ 334 ms ] client_40: Exit
+[ 334 ms ] END

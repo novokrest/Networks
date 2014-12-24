@@ -1,0 +1,27 @@
+[ 0 ms ] START
+[ 0 ms ] client_22: GENERATE_REQUEST_START
+[ 95 ms ] client_22: GENERATE_REQUEST_END
+[ 101 ms ] client_22: CONNECT_TO_SERVER_START
+[ 101 ms ] client_22: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 197 ms ] client_22: Succesfully connected
+[ 197 ms ] client_22: CONNECT_TO_SERVER_END
+[ 197 ms ] client_22: SEND_REQUEST_START
+[ 197 ms ] client_22: Try to send data to server
+[ 467 ms ] client_22: All data has been sent: 54842 bytes
+
+[ 467 ms ] client_22: SEND_REQUEST_END
+[ 467 ms ] client_22: RECEIVE_RESPONSE_START
+[ 467 ms ] client_22: Wait for response...
+[ 1211 ms ] client_22: Response has been received. Total: 22 bytes
+
+[ 1211 ms ] client_22: Response is valid
+[ 1211 ms ] client_22: STATUS OK
+[ 1211 ms ] client_22: Getting result from response
+[ 1211 ms ] client_22: RESULT 148895
+[ 1211 ms ] client_22: RECEIVE_RESPONSE_END
+[ 1211 ms ] client_22: CLOSE_CONNECTION_START
+[ 1211 ms ] client_22: Close connection to server
+[ 1211 ms ] client_22: CLOSE_CONNECTION_END
+[ 1211 ms ] client_22: Exit
+[ 1212 ms ] END

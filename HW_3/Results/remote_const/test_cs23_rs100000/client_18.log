@@ -1,0 +1,27 @@
+[ 0 ms ] START
+[ 0 ms ] client_18: GENERATE_REQUEST_START
+[ 222 ms ] client_18: GENERATE_REQUEST_END
+[ 229 ms ] client_18: CONNECT_TO_SERVER_START
+[ 229 ms ] client_18: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 298 ms ] client_18: Succesfully connected
+[ 298 ms ] client_18: CONNECT_TO_SERVER_END
+[ 298 ms ] client_18: SEND_REQUEST_START
+[ 298 ms ] client_18: Try to send data to server
+[ 1977 ms ] client_18: All data has been sent: 200008 bytes
+
+[ 1977 ms ] client_18: SEND_REQUEST_END
+[ 1977 ms ] client_18: RECEIVE_RESPONSE_START
+[ 1977 ms ] client_18: Wait for response...
+[ 3092 ms ] client_18: Response has been received. Total: 22 bytes
+
+[ 3092 ms ] client_18: Response is valid
+[ 3092 ms ] client_18: STATUS OK
+[ 3092 ms ] client_18: Getting result from response
+[ 3092 ms ] client_18: RESULT -443088
+[ 3092 ms ] client_18: RECEIVE_RESPONSE_END
+[ 3092 ms ] client_18: CLOSE_CONNECTION_START
+[ 3092 ms ] client_18: Close connection to server
+[ 3092 ms ] client_18: CLOSE_CONNECTION_END
+[ 3092 ms ] client_18: Exit
+[ 3093 ms ] END

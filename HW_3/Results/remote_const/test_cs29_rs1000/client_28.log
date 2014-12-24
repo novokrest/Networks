@@ -1,0 +1,27 @@
+[ 0 ms ] START
+[ 0 ms ] client_28: GENERATE_REQUEST_START
+[ 7 ms ] client_28: GENERATE_REQUEST_END
+[ 8 ms ] client_28: CONNECT_TO_SERVER_START
+[ 9 ms ] client_28: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 31 ms ] client_28: Succesfully connected
+[ 31 ms ] client_28: CONNECT_TO_SERVER_END
+[ 31 ms ] client_28: SEND_REQUEST_START
+[ 31 ms ] client_28: Try to send data to server
+[ 31 ms ] client_28: All data has been sent: 2008 bytes
+
+[ 31 ms ] client_28: SEND_REQUEST_END
+[ 31 ms ] client_28: RECEIVE_RESPONSE_START
+[ 31 ms ] client_28: Wait for response...
+[ 794 ms ] client_28: Response has been received. Total: 22 bytes
+
+[ 794 ms ] client_28: Response is valid
+[ 794 ms ] client_28: STATUS OK
+[ 794 ms ] client_28: Getting result from response
+[ 794 ms ] client_28: RESULT -4703
+[ 794 ms ] client_28: RECEIVE_RESPONSE_END
+[ 794 ms ] client_28: CLOSE_CONNECTION_START
+[ 794 ms ] client_28: Close connection to server
+[ 794 ms ] client_28: CLOSE_CONNECTION_END
+[ 794 ms ] client_28: Exit
+[ 794 ms ] END

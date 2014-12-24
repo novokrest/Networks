@@ -1,0 +1,15 @@
+[ 0 ms ] START
+[ 0 ms ] client_4: GENERATE_REQUEST_START
+[ 173 ms ] client_4: GENERATE_REQUEST_END
+[ 175 ms ] client_4: CONNECT_TO_SERVER_START
+[ 175 ms ] client_4: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 218 ms ] client_4: Succesfully connected
+[ 221 ms ] client_4: CONNECT_TO_SERVER_END
+[ 221 ms ] client_4: SEND_REQUEST_START
+[ 224 ms ] client_4: Try to send data to server
+[ 394 ms ] client_4: Not all data has been sent to server. Close connection
+[ 394 ms ] client_4: Connection reset by peer
+[ 394 ms ] client_4: Close connection to server
+[ 394 ms ] client_4: Exit
+[ 394 ms ] END
