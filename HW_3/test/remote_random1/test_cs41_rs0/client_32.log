@@ -1,0 +1,15 @@
+[ 0 ms ] START
+[ 0 ms ] client_32: GENERATE_REQUEST_START
+[ 167 ms ] client_32: GENERATE_REQUEST_END
+[ 175 ms ] client_32: CONNECT_TO_SERVER_START
+[ 175 ms ] client_32: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 262 ms ] client_32: Succesfully connected
+[ 262 ms ] client_32: CONNECT_TO_SERVER_END
+[ 262 ms ] client_32: SEND_REQUEST_START
+[ 262 ms ] client_32: Try to send data to server
+[ 326 ms ] client_32: Not all data has been sent to server. Close connection
+[ 326 ms ] client_32: Connection reset by peer
+[ 326 ms ] client_32: Close connection to server
+[ 328 ms ] client_32: Exit
+[ 329 ms ] END

@@ -1,0 +1,20 @@
+[ 0 ms ] START
+[ 0 ms ] client_37: GENERATE_REQUEST_START
+[ 114 ms ] client_37: GENERATE_REQUEST_END
+[ 125 ms ] client_37: CONNECT_TO_SERVER_START
+[ 125 ms ] client_37: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 163 ms ] client_37: Succesfully connected
+[ 166 ms ] client_37: CONNECT_TO_SERVER_END
+[ 169 ms ] client_37: SEND_REQUEST_START
+[ 169 ms ] client_37: Try to send data to server
+[ 273 ms ] client_37: All data has been sent: 50240 bytes
+
+[ 273 ms ] client_37: SEND_REQUEST_END
+[ 273 ms ] client_37: RECEIVE_RESPONSE_START
+[ 273 ms ] client_37: Wait for response...
+[ 340 ms ] client_37: Error occurred while receiving response
+[ 340 ms ] client_37: Connection reset by peer
+[ 340 ms ] client_37: Close connection to server
+[ 340 ms ] client_37: Exit
+[ 340 ms ] END

@@ -1,0 +1,15 @@
+[ 0 ms ] START
+[ 0 ms ] client_38: GENERATE_REQUEST_START
+[ 133 ms ] client_38: GENERATE_REQUEST_END
+[ 145 ms ] client_38: CONNECT_TO_SERVER_START
+[ 145 ms ] client_38: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 211 ms ] client_38: Succesfully connected
+[ 211 ms ] client_38: CONNECT_TO_SERVER_END
+[ 211 ms ] client_38: SEND_REQUEST_START
+[ 211 ms ] client_38: Try to send data to server
+[ 320 ms ] client_38: Not all data has been sent to server. Close connection
+[ 321 ms ] client_38: Connection reset by peer
+[ 321 ms ] client_38: Close connection to server
+[ 321 ms ] client_38: Exit
+[ 322 ms ] END
