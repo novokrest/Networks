@@ -1,0 +1,10 @@
+[ 0 ms ] START
+[ 0 ms ] client_2: GENERATE_REQUEST_START
+[ 157 ms ] client_2: GENERATE_REQUEST_END
+[ 157 ms ] client_2: CONNECT_TO_SERVER_START
+[ 157 ms ] client_2: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 162 ms ] client_2: Error occurred while connecting to server
+[ 162 ms ] client_2: Connection refused
+[ 162 ms ] client_2: Exit
+[ 162 ms ] END
