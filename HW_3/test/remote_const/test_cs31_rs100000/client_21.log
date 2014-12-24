@@ -1,0 +1,27 @@
+[ 0 ms ] START
+[ 0 ms ] client_21: GENERATE_REQUEST_START
+[ 218 ms ] client_21: GENERATE_REQUEST_END
+[ 227 ms ] client_21: CONNECT_TO_SERVER_START
+[ 227 ms ] client_21: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 385 ms ] client_21: Succesfully connected
+[ 385 ms ] client_21: CONNECT_TO_SERVER_END
+[ 385 ms ] client_21: SEND_REQUEST_START
+[ 385 ms ] client_21: Try to send data to server
+[ 1417 ms ] client_21: All data has been sent: 200008 bytes
+
+[ 1417 ms ] client_21: SEND_REQUEST_END
+[ 1417 ms ] client_21: RECEIVE_RESPONSE_START
+[ 1417 ms ] client_21: Wait for response...
+[ 4149 ms ] client_21: Response has been received. Total: 22 bytes
+
+[ 4149 ms ] client_21: Response is valid
+[ 4149 ms ] client_21: STATUS OK
+[ 4149 ms ] client_21: Getting result from response
+[ 4149 ms ] client_21: RESULT -533545
+[ 4149 ms ] client_21: RECEIVE_RESPONSE_END
+[ 4149 ms ] client_21: CLOSE_CONNECTION_START
+[ 4149 ms ] client_21: Close connection to server
+[ 4150 ms ] client_21: CLOSE_CONNECTION_END
+[ 4150 ms ] client_21: Exit
+[ 4150 ms ] END

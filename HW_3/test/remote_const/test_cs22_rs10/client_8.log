@@ -1,0 +1,27 @@
+[ 0 ms ] START
+[ 0 ms ] client_8: GENERATE_REQUEST_START
+[ 6 ms ] client_8: GENERATE_REQUEST_END
+[ 6 ms ] client_8: CONNECT_TO_SERVER_START
+[ 7 ms ] client_8: Try connect socket 3 to server: IP = 192.168.1.2, port = 7000
+
+[ 25 ms ] client_8: Succesfully connected
+[ 26 ms ] client_8: CONNECT_TO_SERVER_END
+[ 26 ms ] client_8: SEND_REQUEST_START
+[ 26 ms ] client_8: Try to send data to server
+[ 26 ms ] client_8: All data has been sent: 28 bytes
+
+[ 26 ms ] client_8: SEND_REQUEST_END
+[ 26 ms ] client_8: RECEIVE_RESPONSE_START
+[ 26 ms ] client_8: Wait for response...
+[ 477 ms ] client_8: Response has been received. Total: 22 bytes
+
+[ 477 ms ] client_8: Response is valid
+[ 477 ms ] client_8: STATUS OK
+[ 477 ms ] client_8: Getting result from response
+[ 477 ms ] client_8: RESULT -19
+[ 477 ms ] client_8: RECEIVE_RESPONSE_END
+[ 477 ms ] client_8: CLOSE_CONNECTION_START
+[ 477 ms ] client_8: Close connection to server
+[ 477 ms ] client_8: CLOSE_CONNECTION_END
+[ 477 ms ] client_8: Exit
+[ 478 ms ] END
