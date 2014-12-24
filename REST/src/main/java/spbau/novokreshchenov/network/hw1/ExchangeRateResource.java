@@ -108,6 +108,9 @@ public class ExchangeRateResource {
     @Consumes({"text/json", "application/json"})
     @Produces({"text/json", "application/json"})
     public Response putTaskInJson(PutTask task) {
+        if (task.bank == null || task.currency == null) {
+            return Response.status(400).type("application/json").build();
+        }
         String taskId = taskManager.putTask(new ExchangeRateTask(task.bank, task.currency));
 
         return Response.ok(new PutResult(taskId), "application/json").build();
@@ -115,6 +118,7 @@ public class ExchangeRateResource {
 
     @POST
     @Path("/{id}")
+    @Produces({"application/json"})
     @Consumes({"text/json", "application/json"})
     public Response postTaskInJson(
             @PathParam("id") String id,
@@ -133,6 +137,7 @@ public class ExchangeRateResource {
     }
 
     @DELETE
+    @Produces({"application/json"})
     @Consumes({"text/json", "application/json"})
     public Response deleteTaskInJson(DeleteTask task) {
         try {

@@ -1,11 +1,15 @@
 package spbau.novokreshchenov.network.hw1;
 
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class ExchangeRateTaskResult {
-    private final String bankName;
-    private final String currency;
-    private final float buyValue;
-    private final float sellValue;
+    public String bankName;
+    public String currency;
+    public float buyValue;
+    public float sellValue;
+
+    public ExchangeRateTaskResult() {}
 
     public ExchangeRateTaskResult(ExchangeRateTask task, float buyValue, float sellValue) {
         this.bankName = task.getBankName();
@@ -28,5 +32,13 @@ public class ExchangeRateTaskResult {
 
     public float getSellValue() {
         return sellValue;
+    }
+
+    @Override
+    public String toString() {
+        return "bankName: " + bankName
+                + "currency: " + currency
+                + "buyValue: " + buyValue
+                + "sellValue: " + sellValue;
     }
 }
